@@ -1,0 +1,4 @@
+model:
+  lookback: 90
+  d_model: 128
+  nhead: 8
