@@ -1,6 +1,6 @@
+from pydantic import BaseModel  # <-- CRITICAL: This was missing
 import yaml
 from pathlib import Path
-from pydantic import BaseModel
 from typing import Optional
 
 
@@ -31,6 +31,7 @@ class TrainingConfig(BaseModel):
     gradient_clip_norm: float = 1.0
     scheduler_factor: float = 0.5
     scheduler_patience: int = 10
+    optimizer: str = "adamw"  # Added to match create_optimizer
 
 
 class BacktestConfig(BaseModel):

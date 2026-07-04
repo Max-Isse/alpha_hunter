@@ -1,0 +1,38 @@
+2026-07-04 15:45:08.152 | INFO     | src.data.loader:load_data:18 - Downloading SPY from yfinance (2010-01-01 to 2026-06-01)
+2026-07-04 15:47:49.344 | INFO     | src.data.loader:load_data:18 - Downloading SPY from yfinance (2010-01-01 to 2026-06-01)
+2026-07-04 15:47:51.650 | INFO     | src.data.pipeline:fit_transform:41 - Created 4016 sequences with 26 features each.
+2026-07-04 15:48:31.532 | INFO     | src.data.loader:load_data:15 - Loading cached data from data\raw\SPY_2010-01-01_2026-06-01.parquet
+2026-07-04 15:48:31.660 | INFO     | src.data.pipeline:fit_transform:41 - Created 4016 sequences with 26 features each.
+2026-07-04 15:51:26.373 | INFO     | src.data.loader:load_data:15 - Loading cached data from data\raw\SPY_2010-01-01_2026-06-01.parquet
+2026-07-04 15:51:26.446 | INFO     | src.data.pipeline:fit_transform:41 - Created 4016 sequences with 26 features each.
+2026-07-04 15:51:35.109 | DEBUG    | src.training.trainer:fit:69 - Epoch 1/200 | Train: 0.027329 | Val: 0.002745
+2026-07-04 15:51:35.122 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 15:51:39.385 | DEBUG    | src.training.trainer:fit:69 - Epoch 2/200 | Train: 0.004600 | Val: 0.002267
+2026-07-04 15:51:39.393 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 15:51:43.502 | DEBUG    | src.training.trainer:fit:69 - Epoch 3/200 | Train: 0.002030 | Val: 0.000876
+2026-07-04 15:51:43.506 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 15:51:47.625 | DEBUG    | src.training.trainer:fit:69 - Epoch 4/200 | Train: 0.001270 | Val: 0.001003
+2026-07-04 15:51:51.602 | DEBUG    | src.training.trainer:fit:69 - Epoch 5/200 | Train: 0.001029 | Val: 0.001104
+2026-07-04 15:51:55.620 | DEBUG    | src.training.trainer:fit:69 - Epoch 6/200 | Train: 0.000820 | Val: 0.000774
+2026-07-04 15:51:55.624 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 15:51:59.759 | DEBUG    | src.training.trainer:fit:69 - Epoch 7/200 | Train: 0.000729 | Val: 0.000874
+2026-07-04 15:52:03.862 | DEBUG    | src.training.trainer:fit:69 - Epoch 8/200 | Train: 0.000777 | Val: 0.000813
+2026-07-04 15:52:10.493 | DEBUG    | src.training.trainer:fit:69 - Epoch 9/200 | Train: 0.000693 | Val: 0.000694
+2026-07-04 15:52:10.499 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 15:52:18.353 | DEBUG    | src.training.trainer:fit:69 - Epoch 10/200 | Train: 0.000784 | Val: 0.000745
+2026-07-04 15:52:24.195 | DEBUG    | src.training.trainer:fit:69 - Epoch 11/200 | Train: 0.000637 | Val: 0.000709
+2026-07-04 15:52:31.769 | DEBUG    | src.training.trainer:fit:69 - Epoch 12/200 | Train: 0.000616 | Val: 0.000836
+2026-07-04 15:52:39.527 | DEBUG    | src.training.trainer:fit:69 - Epoch 13/200 | Train: 0.000581 | Val: 0.000733
+2026-07-04 15:52:47.231 | DEBUG    | src.training.trainer:fit:69 - Epoch 14/200 | Train: 0.000583 | Val: 0.000924
+2026-07-04 15:52:54.734 | DEBUG    | src.training.trainer:fit:69 - Epoch 15/200 | Train: 0.000600 | Val: 0.000773
+2026-07-04 15:53:00.253 | DEBUG    | src.training.trainer:fit:69 - Epoch 16/200 | Train: 0.000552 | Val: 0.000771
+2026-07-04 15:53:04.783 | DEBUG    | src.training.trainer:fit:69 - Epoch 17/200 | Train: 0.000585 | Val: 0.000850
+2026-07-04 15:53:09.003 | DEBUG    | src.training.trainer:fit:69 - Epoch 18/200 | Train: 0.000570 | Val: 0.000841
+2026-07-04 15:53:13.366 | DEBUG    | src.training.trainer:fit:69 - Epoch 19/200 | Train: 0.000538 | Val: 0.001061
+2026-07-04 15:53:17.541 | DEBUG    | src.training.trainer:fit:69 - Epoch 20/200 | Train: 0.000552 | Val: 0.000755
+2026-07-04 15:53:22.411 | DEBUG    | src.training.trainer:fit:69 - Epoch 21/200 | Train: 0.000473 | Val: 0.000790
+2026-07-04 15:53:30.452 | DEBUG    | src.training.trainer:fit:69 - Epoch 22/200 | Train: 0.000496 | Val: 0.000927
+2026-07-04 15:53:37.974 | DEBUG    | src.training.trainer:fit:69 - Epoch 23/200 | Train: 0.000466 | Val: 0.000757
+2026-07-04 15:53:45.600 | DEBUG    | src.training.trainer:fit:69 - Epoch 24/200 | Train: 0.000466 | Val: 0.000920
+2026-07-04 15:53:45.600 | INFO     | src.training.callbacks:on_epoch_end:26 - Early stopping triggered at epoch 24
+2026-07-04 15:53:46.975 | INFO     | src.backtest.simulator:run_backtest:19 - Backtest results: Sharpe=3.41, Return=nan%
