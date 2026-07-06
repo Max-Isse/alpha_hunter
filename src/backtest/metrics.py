@@ -3,6 +3,9 @@ import pandas as pd
 
 
 def calculate_metrics(returns: pd.Series, risk_free_rate: float = 0.0) -> dict:
+    returns = returns.dropna()
+    if len(returns) == 0:
+        return {"total_return": 0.0, "sharpe": 0.0, "sortino": 0.0, "max_drawdown": 0.0, "volatility": 0.0}
     """Calculate key performance metrics."""
     excess = returns - risk_free_rate / 252
     sharpe = np.sqrt(252) * excess.mean() / returns.std() if returns.std() > 0 else 0.0

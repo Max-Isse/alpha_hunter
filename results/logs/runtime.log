@@ -36,3 +36,1068 @@
 2026-07-04 15:53:45.600 | DEBUG    | src.training.trainer:fit:69 - Epoch 24/200 | Train: 0.000466 | Val: 0.000920
 2026-07-04 15:53:45.600 | INFO     | src.training.callbacks:on_epoch_end:26 - Early stopping triggered at epoch 24
 2026-07-04 15:53:46.975 | INFO     | src.backtest.simulator:run_backtest:19 - Backtest results: Sharpe=3.41, Return=nan%
+2026-07-04 16:00:33.386 | INFO     | src.data.loader:load_data:15 - Loading cached data from data\raw\SPY_2010-01-01_2026-06-01.parquet
+2026-07-04 16:00:33.453 | INFO     | src.data.pipeline:fit_transform:41 - Created 4016 sequences with 26 features each.
+2026-07-04 16:00:44.894 | DEBUG    | src.training.trainer:fit:69 - Epoch 1/100 | Train: 0.019715 | Val: 0.002025
+2026-07-04 16:00:54.806 | DEBUG    | src.training.trainer:fit:69 - Epoch 2/100 | Train: 0.007809 | Val: 0.001599
+2026-07-04 16:01:04.843 | DEBUG    | src.training.trainer:fit:69 - Epoch 3/100 | Train: 0.004360 | Val: 0.001384
+2026-07-04 16:01:14.980 | DEBUG    | src.training.trainer:fit:69 - Epoch 4/100 | Train: 0.003185 | Val: 0.000926
+2026-07-04 16:01:25.074 | DEBUG    | src.training.trainer:fit:69 - Epoch 5/100 | Train: 0.002571 | Val: 0.000947
+2026-07-04 16:01:39.177 | DEBUG    | src.training.trainer:fit:69 - Epoch 6/100 | Train: 0.002144 | Val: 0.000743
+2026-07-04 16:01:49.298 | DEBUG    | src.training.trainer:fit:69 - Epoch 7/100 | Train: 0.001824 | Val: 0.000800
+2026-07-04 16:01:59.369 | DEBUG    | src.training.trainer:fit:69 - Epoch 8/100 | Train: 0.001574 | Val: 0.000737
+2026-07-04 16:02:09.570 | DEBUG    | src.training.trainer:fit:69 - Epoch 9/100 | Train: 0.001444 | Val: 0.000836
+2026-07-04 16:02:19.703 | DEBUG    | src.training.trainer:fit:69 - Epoch 10/100 | Train: 0.001265 | Val: 0.000717
+2026-07-04 16:02:29.871 | DEBUG    | src.training.trainer:fit:69 - Epoch 11/100 | Train: 0.001250 | Val: 0.000728
+2026-07-04 16:02:40.022 | DEBUG    | src.training.trainer:fit:69 - Epoch 12/100 | Train: 0.001108 | Val: 0.000695
+2026-07-04 16:02:50.034 | DEBUG    | src.training.trainer:fit:69 - Epoch 13/100 | Train: 0.001023 | Val: 0.000695
+2026-07-04 16:03:00.165 | DEBUG    | src.training.trainer:fit:69 - Epoch 14/100 | Train: 0.001015 | Val: 0.000707
+2026-07-04 16:03:13.633 | DEBUG    | src.training.trainer:fit:69 - Epoch 15/100 | Train: 0.000928 | Val: 0.000671
+2026-07-04 16:03:34.394 | DEBUG    | src.training.trainer:fit:69 - Epoch 16/100 | Train: 0.000889 | Val: 0.000684
+2026-07-04 16:03:54.586 | DEBUG    | src.training.trainer:fit:69 - Epoch 17/100 | Train: 0.000921 | Val: 0.000710
+2026-07-04 16:04:14.685 | DEBUG    | src.training.trainer:fit:69 - Epoch 18/100 | Train: 0.000861 | Val: 0.000700
+2026-07-04 16:04:34.740 | DEBUG    | src.training.trainer:fit:69 - Epoch 19/100 | Train: 0.000809 | Val: 0.000919
+2026-07-04 16:04:55.351 | DEBUG    | src.training.trainer:fit:69 - Epoch 20/100 | Train: 0.000809 | Val: 0.000949
+2026-07-04 16:05:16.080 | DEBUG    | src.training.trainer:fit:69 - Epoch 21/100 | Train: 0.000797 | Val: 0.000668
+2026-07-04 16:05:36.545 | DEBUG    | src.training.trainer:fit:69 - Epoch 22/100 | Train: 0.000733 | Val: 0.000687
+2026-07-04 16:05:56.909 | DEBUG    | src.training.trainer:fit:69 - Epoch 23/100 | Train: 0.000693 | Val: 0.000680
+2026-07-04 16:06:17.542 | DEBUG    | src.training.trainer:fit:69 - Epoch 24/100 | Train: 0.000687 | Val: 0.000674
+2026-07-04 16:06:37.846 | DEBUG    | src.training.trainer:fit:69 - Epoch 25/100 | Train: 0.000665 | Val: 0.000705
+2026-07-04 16:06:58.391 | DEBUG    | src.training.trainer:fit:69 - Epoch 26/100 | Train: 0.000646 | Val: 0.000705
+2026-07-04 16:07:19.045 | DEBUG    | src.training.trainer:fit:69 - Epoch 27/100 | Train: 0.000703 | Val: 0.000675
+2026-07-04 16:07:39.855 | DEBUG    | src.training.trainer:fit:69 - Epoch 28/100 | Train: 0.000668 | Val: 0.001027
+2026-07-04 16:08:00.676 | DEBUG    | src.training.trainer:fit:69 - Epoch 29/100 | Train: 0.000646 | Val: 0.000699
+2026-07-04 16:08:11.403 | DEBUG    | src.training.trainer:fit:69 - Epoch 30/100 | Train: 0.000615 | Val: 0.000772
+2026-07-04 16:08:21.782 | DEBUG    | src.training.trainer:fit:69 - Epoch 31/100 | Train: 0.000645 | Val: 0.000711
+2026-07-04 16:08:21.782 | INFO     | src.training.callbacks:on_epoch_end:26 - Early stopping triggered at epoch 31
+2026-07-04 16:08:25.638 | DEBUG    | src.training.trainer:fit:69 - Epoch 1/100 | Train: 0.060483 | Val: 0.005683
+2026-07-04 16:08:29.393 | DEBUG    | src.training.trainer:fit:69 - Epoch 2/100 | Train: 0.041843 | Val: 0.007309
+2026-07-04 16:08:33.305 | DEBUG    | src.training.trainer:fit:69 - Epoch 3/100 | Train: 0.031137 | Val: 0.008737
+2026-07-04 16:08:37.093 | DEBUG    | src.training.trainer:fit:69 - Epoch 4/100 | Train: 0.023389 | Val: 0.004592
+2026-07-04 16:08:40.784 | DEBUG    | src.training.trainer:fit:69 - Epoch 5/100 | Train: 0.018536 | Val: 0.002987
+2026-07-04 16:08:44.569 | DEBUG    | src.training.trainer:fit:69 - Epoch 6/100 | Train: 0.015947 | Val: 0.003901
+2026-07-04 16:08:48.315 | DEBUG    | src.training.trainer:fit:69 - Epoch 7/100 | Train: 0.013960 | Val: 0.002398
+2026-07-04 16:08:52.065 | DEBUG    | src.training.trainer:fit:69 - Epoch 8/100 | Train: 0.012063 | Val: 0.001785
+2026-07-04 16:08:55.709 | DEBUG    | src.training.trainer:fit:69 - Epoch 9/100 | Train: 0.010616 | Val: 0.001367
+2026-07-04 16:08:59.431 | DEBUG    | src.training.trainer:fit:69 - Epoch 10/100 | Train: 0.010040 | Val: 0.001650
+2026-07-04 16:09:06.355 | DEBUG    | src.training.trainer:fit:69 - Epoch 11/100 | Train: 0.009404 | Val: 0.001126
+2026-07-04 16:09:13.821 | DEBUG    | src.training.trainer:fit:69 - Epoch 12/100 | Train: 0.007862 | Val: 0.001006
+2026-07-04 16:09:21.346 | DEBUG    | src.training.trainer:fit:69 - Epoch 13/100 | Train: 0.007862 | Val: 0.000985
+2026-07-04 16:09:28.979 | DEBUG    | src.training.trainer:fit:69 - Epoch 14/100 | Train: 0.007248 | Val: 0.001106
+2026-07-04 16:09:36.478 | DEBUG    | src.training.trainer:fit:69 - Epoch 15/100 | Train: 0.006908 | Val: 0.001110
+2026-07-04 16:09:44.048 | DEBUG    | src.training.trainer:fit:69 - Epoch 16/100 | Train: 0.006293 | Val: 0.000981
+2026-07-04 16:09:50.109 | DEBUG    | src.training.trainer:fit:69 - Epoch 17/100 | Train: 0.006184 | Val: 0.000894
+2026-07-04 16:09:53.950 | DEBUG    | src.training.trainer:fit:69 - Epoch 18/100 | Train: 0.005770 | Val: 0.000930
+2026-07-04 16:09:57.709 | DEBUG    | src.training.trainer:fit:69 - Epoch 19/100 | Train: 0.005372 | Val: 0.000963
+2026-07-04 16:10:01.668 | DEBUG    | src.training.trainer:fit:69 - Epoch 20/100 | Train: 0.005178 | Val: 0.000791
+2026-07-04 16:10:05.453 | DEBUG    | src.training.trainer:fit:69 - Epoch 21/100 | Train: 0.005055 | Val: 0.000798
+2026-07-04 16:10:09.159 | DEBUG    | src.training.trainer:fit:69 - Epoch 22/100 | Train: 0.004909 | Val: 0.000792
+2026-07-04 16:10:12.896 | DEBUG    | src.training.trainer:fit:69 - Epoch 23/100 | Train: 0.004614 | Val: 0.000803
+2026-07-04 16:10:16.757 | DEBUG    | src.training.trainer:fit:69 - Epoch 24/100 | Train: 0.004494 | Val: 0.000794
+2026-07-04 16:12:07.688 | INFO     | src.data.loader:load_data:15 - Loading cached data from data\raw\SPY_2010-01-01_2026-06-01.parquet
+2026-07-04 16:12:07.755 | INFO     | src.data.pipeline:fit_transform:41 - Created 4016 sequences with 26 features each.
+2026-07-04 16:12:18.891 | DEBUG    | src.training.trainer:fit:69 - Epoch 1/100 | Train: 0.030871 | Val: 0.005000
+2026-07-04 16:12:31.367 | DEBUG    | src.training.trainer:fit:69 - Epoch 2/100 | Train: 0.009947 | Val: 0.001513
+2026-07-04 16:12:51.708 | DEBUG    | src.training.trainer:fit:69 - Epoch 3/100 | Train: 0.005982 | Val: 0.001723
+2026-07-04 16:13:12.377 | DEBUG    | src.training.trainer:fit:69 - Epoch 4/100 | Train: 0.004241 | Val: 0.001939
+2026-07-04 16:13:26.641 | DEBUG    | src.training.trainer:fit:69 - Epoch 5/100 | Train: 0.003377 | Val: 0.002619
+2026-07-04 16:13:40.736 | DEBUG    | src.training.trainer:fit:69 - Epoch 6/100 | Train: 0.002730 | Val: 0.000821
+2026-07-04 16:13:53.419 | DEBUG    | src.training.trainer:fit:69 - Epoch 7/100 | Train: 0.002229 | Val: 0.000962
+2026-07-04 16:14:06.413 | DEBUG    | src.training.trainer:fit:69 - Epoch 8/100 | Train: 0.002028 | Val: 0.000800
+2026-07-04 16:14:18.991 | DEBUG    | src.training.trainer:fit:69 - Epoch 9/100 | Train: 0.001760 | Val: 0.000741
+2026-07-04 16:14:32.437 | DEBUG    | src.training.trainer:fit:69 - Epoch 10/100 | Train: 0.001584 | Val: 0.000831
+2026-07-04 16:14:47.936 | DEBUG    | src.training.trainer:fit:69 - Epoch 11/100 | Train: 0.001586 | Val: 0.000723
+2026-07-04 16:15:02.380 | DEBUG    | src.training.trainer:fit:69 - Epoch 12/100 | Train: 0.001439 | Val: 0.000756
+2026-07-04 16:15:17.781 | DEBUG    | src.training.trainer:fit:69 - Epoch 13/100 | Train: 0.001324 | Val: 0.000691
+2026-07-04 16:15:32.439 | DEBUG    | src.training.trainer:fit:69 - Epoch 14/100 | Train: 0.001238 | Val: 0.000689
+2026-07-04 16:15:45.933 | DEBUG    | src.training.trainer:fit:69 - Epoch 15/100 | Train: 0.001134 | Val: 0.000717
+2026-07-04 16:15:59.294 | DEBUG    | src.training.trainer:fit:69 - Epoch 16/100 | Train: 0.001073 | Val: 0.000683
+2026-07-04 16:16:12.955 | DEBUG    | src.training.trainer:fit:69 - Epoch 17/100 | Train: 0.001047 | Val: 0.000675
+2026-07-04 16:16:27.009 | DEBUG    | src.training.trainer:fit:69 - Epoch 18/100 | Train: 0.001010 | Val: 0.000784
+2026-07-04 16:16:40.602 | DEBUG    | src.training.trainer:fit:69 - Epoch 19/100 | Train: 0.001013 | Val: 0.000701
+2026-07-04 16:16:53.990 | DEBUG    | src.training.trainer:fit:69 - Epoch 20/100 | Train: 0.000941 | Val: 0.000678
+2026-07-04 16:17:07.318 | DEBUG    | src.training.trainer:fit:69 - Epoch 21/100 | Train: 0.000930 | Val: 0.000875
+2026-07-04 16:17:20.768 | DEBUG    | src.training.trainer:fit:69 - Epoch 22/100 | Train: 0.000905 | Val: 0.000731
+2026-07-04 16:17:33.928 | DEBUG    | src.training.trainer:fit:69 - Epoch 23/100 | Train: 0.000908 | Val: 0.000786
+2026-07-04 16:17:46.089 | DEBUG    | src.training.trainer:fit:69 - Epoch 24/100 | Train: 0.000842 | Val: 0.000741
+2026-07-04 16:17:57.099 | DEBUG    | src.training.trainer:fit:69 - Epoch 25/100 | Train: 0.000836 | Val: 0.000704
+2026-07-04 16:18:08.351 | DEBUG    | src.training.trainer:fit:69 - Epoch 26/100 | Train: 0.000798 | Val: 0.000737
+2026-07-04 16:18:19.574 | DEBUG    | src.training.trainer:fit:69 - Epoch 27/100 | Train: 0.000786 | Val: 0.000754
+2026-07-04 16:18:19.574 | INFO     | src.training.callbacks:on_epoch_end:26 - Early stopping triggered at epoch 27
+2026-07-04 16:18:23.809 | DEBUG    | src.training.trainer:fit:69 - Epoch 1/100 | Train: 0.047721 | Val: 0.024413
+2026-07-04 16:18:27.947 | DEBUG    | src.training.trainer:fit:69 - Epoch 2/100 | Train: 0.031896 | Val: 0.014249
+2026-07-04 16:18:32.125 | DEBUG    | src.training.trainer:fit:69 - Epoch 3/100 | Train: 0.026289 | Val: 0.006686
+2026-07-04 16:18:36.125 | DEBUG    | src.training.trainer:fit:69 - Epoch 4/100 | Train: 0.018702 | Val: 0.004934
+2026-07-04 16:18:40.351 | DEBUG    | src.training.trainer:fit:69 - Epoch 5/100 | Train: 0.016455 | Val: 0.002978
+2026-07-04 16:18:44.316 | DEBUG    | src.training.trainer:fit:69 - Epoch 6/100 | Train: 0.014391 | Val: 0.002477
+2026-07-04 16:18:48.537 | DEBUG    | src.training.trainer:fit:69 - Epoch 7/100 | Train: 0.012472 | Val: 0.001902
+2026-07-04 16:18:52.472 | DEBUG    | src.training.trainer:fit:69 - Epoch 8/100 | Train: 0.011341 | Val: 0.001394
+2026-07-04 16:18:56.305 | DEBUG    | src.training.trainer:fit:69 - Epoch 9/100 | Train: 0.010332 | Val: 0.001472
+2026-07-04 16:18:59.959 | DEBUG    | src.training.trainer:fit:69 - Epoch 10/100 | Train: 0.009471 | Val: 0.001528
+2026-07-04 16:19:03.803 | DEBUG    | src.training.trainer:fit:69 - Epoch 11/100 | Train: 0.008627 | Val: 0.001433
+2026-07-04 16:19:07.439 | DEBUG    | src.training.trainer:fit:69 - Epoch 12/100 | Train: 0.007919 | Val: 0.001138
+2026-07-04 16:19:11.206 | DEBUG    | src.training.trainer:fit:69 - Epoch 13/100 | Train: 0.007364 | Val: 0.001063
+2026-07-04 16:19:15.008 | DEBUG    | src.training.trainer:fit:69 - Epoch 14/100 | Train: 0.007063 | Val: 0.001044
+2026-07-04 16:19:18.692 | DEBUG    | src.training.trainer:fit:69 - Epoch 15/100 | Train: 0.006058 | Val: 0.000985
+2026-07-04 16:19:22.545 | DEBUG    | src.training.trainer:fit:69 - Epoch 16/100 | Train: 0.005601 | Val: 0.000925
+2026-07-04 16:19:26.372 | DEBUG    | src.training.trainer:fit:69 - Epoch 17/100 | Train: 0.005346 | Val: 0.000925
+2026-07-04 16:19:30.085 | DEBUG    | src.training.trainer:fit:69 - Epoch 18/100 | Train: 0.005387 | Val: 0.000970
+2026-07-04 16:19:33.864 | DEBUG    | src.training.trainer:fit:69 - Epoch 19/100 | Train: 0.004646 | Val: 0.000953
+2026-07-04 16:19:37.764 | DEBUG    | src.training.trainer:fit:69 - Epoch 20/100 | Train: 0.004457 | Val: 0.000868
+2026-07-04 16:19:42.201 | DEBUG    | src.training.trainer:fit:69 - Epoch 21/100 | Train: 0.004213 | Val: 0.001021
+2026-07-04 16:19:46.454 | DEBUG    | src.training.trainer:fit:69 - Epoch 22/100 | Train: 0.004166 | Val: 0.000925
+2026-07-04 16:19:54.159 | DEBUG    | src.training.trainer:fit:69 - Epoch 23/100 | Train: 0.004177 | Val: 0.000917
+2026-07-04 16:20:01.943 | DEBUG    | src.training.trainer:fit:69 - Epoch 24/100 | Train: 0.003789 | Val: 0.000891
+2026-07-04 16:20:09.407 | DEBUG    | src.training.trainer:fit:69 - Epoch 25/100 | Train: 0.003645 | Val: 0.000881
+2026-07-04 16:20:16.818 | DEBUG    | src.training.trainer:fit:69 - Epoch 26/100 | Train: 0.003399 | Val: 0.000899
+2026-07-04 16:20:24.339 | DEBUG    | src.training.trainer:fit:69 - Epoch 27/100 | Train: 0.003450 | Val: 0.000835
+2026-07-04 16:20:31.983 | DEBUG    | src.training.trainer:fit:69 - Epoch 28/100 | Train: 0.003251 | Val: 0.000916
+2026-07-04 16:20:38.639 | DEBUG    | src.training.trainer:fit:69 - Epoch 29/100 | Train: 0.003169 | Val: 0.000834
+2026-07-04 16:20:45.245 | DEBUG    | src.training.trainer:fit:69 - Epoch 30/100 | Train: 0.003016 | Val: 0.000793
+2026-07-04 16:20:52.898 | DEBUG    | src.training.trainer:fit:69 - Epoch 31/100 | Train: 0.003093 | Val: 0.000755
+2026-07-04 16:21:00.430 | DEBUG    | src.training.trainer:fit:69 - Epoch 32/100 | Train: 0.002865 | Val: 0.000750
+2026-07-04 16:21:08.075 | DEBUG    | src.training.trainer:fit:69 - Epoch 33/100 | Train: 0.002851 | Val: 0.000757
+2026-07-04 16:21:15.773 | DEBUG    | src.training.trainer:fit:69 - Epoch 34/100 | Train: 0.002717 | Val: 0.000746
+2026-07-04 16:21:23.384 | DEBUG    | src.training.trainer:fit:69 - Epoch 35/100 | Train: 0.002586 | Val: 0.000756
+2026-07-04 16:21:30.943 | DEBUG    | src.training.trainer:fit:69 - Epoch 36/100 | Train: 0.002694 | Val: 0.000748
+2026-07-04 16:21:36.670 | DEBUG    | src.training.trainer:fit:69 - Epoch 37/100 | Train: 0.002567 | Val: 0.000769
+2026-07-04 16:21:44.257 | DEBUG    | src.training.trainer:fit:69 - Epoch 38/100 | Train: 0.002445 | Val: 0.000740
+2026-07-04 16:21:51.955 | DEBUG    | src.training.trainer:fit:69 - Epoch 39/100 | Train: 0.002399 | Val: 0.000745
+2026-07-04 16:21:59.782 | DEBUG    | src.training.trainer:fit:69 - Epoch 40/100 | Train: 0.002372 | Val: 0.000781
+2026-07-04 16:22:07.449 | DEBUG    | src.training.trainer:fit:69 - Epoch 41/100 | Train: 0.002417 | Val: 0.000754
+2026-07-04 16:22:15.153 | DEBUG    | src.training.trainer:fit:69 - Epoch 42/100 | Train: 0.002362 | Val: 0.000825
+2026-07-04 16:22:22.879 | DEBUG    | src.training.trainer:fit:69 - Epoch 43/100 | Train: 0.002208 | Val: 0.000824
+2026-07-04 16:22:30.556 | DEBUG    | src.training.trainer:fit:69 - Epoch 44/100 | Train: 0.002243 | Val: 0.000752
+2026-07-04 16:22:38.269 | DEBUG    | src.training.trainer:fit:69 - Epoch 45/100 | Train: 0.002149 | Val: 0.000793
+2026-07-04 16:22:45.940 | DEBUG    | src.training.trainer:fit:69 - Epoch 46/100 | Train: 0.002082 | Val: 0.000759
+2026-07-04 16:22:53.712 | DEBUG    | src.training.trainer:fit:69 - Epoch 47/100 | Train: 0.002000 | Val: 0.000710
+2026-07-04 16:23:01.505 | DEBUG    | src.training.trainer:fit:69 - Epoch 48/100 | Train: 0.002073 | Val: 0.000695
+2026-07-04 16:23:09.210 | DEBUG    | src.training.trainer:fit:69 - Epoch 49/100 | Train: 0.002037 | Val: 0.000781
+2026-07-04 16:23:16.783 | DEBUG    | src.training.trainer:fit:69 - Epoch 50/100 | Train: 0.001954 | Val: 0.000723
+2026-07-04 16:23:24.545 | DEBUG    | src.training.trainer:fit:69 - Epoch 51/100 | Train: 0.001893 | Val: 0.000749
+2026-07-04 16:23:32.242 | DEBUG    | src.training.trainer:fit:69 - Epoch 52/100 | Train: 0.001939 | Val: 0.000712
+2026-07-04 16:23:39.959 | DEBUG    | src.training.trainer:fit:69 - Epoch 53/100 | Train: 0.001859 | Val: 0.000725
+2026-07-04 16:23:47.680 | DEBUG    | src.training.trainer:fit:69 - Epoch 54/100 | Train: 0.001719 | Val: 0.000695
+2026-07-04 16:23:55.411 | DEBUG    | src.training.trainer:fit:69 - Epoch 55/100 | Train: 0.001743 | Val: 0.000757
+2026-07-04 16:24:03.156 | DEBUG    | src.training.trainer:fit:69 - Epoch 56/100 | Train: 0.001753 | Val: 0.000770
+2026-07-04 16:24:10.793 | DEBUG    | src.training.trainer:fit:69 - Epoch 57/100 | Train: 0.001712 | Val: 0.000711
+2026-07-04 16:24:18.419 | DEBUG    | src.training.trainer:fit:69 - Epoch 58/100 | Train: 0.001706 | Val: 0.000718
+2026-07-04 16:24:18.419 | INFO     | src.training.callbacks:on_epoch_end:26 - Early stopping triggered at epoch 58
+2026-07-04 16:24:31.264 | DEBUG    | src.training.trainer:fit:69 - Epoch 1/100 | Train: 0.036686 | Val: 0.010064
+2026-07-04 16:24:44.126 | DEBUG    | src.training.trainer:fit:69 - Epoch 2/100 | Train: 0.012821 | Val: 0.003091
+2026-07-04 16:24:56.798 | DEBUG    | src.training.trainer:fit:69 - Epoch 3/100 | Train: 0.007098 | Val: 0.001788
+2026-07-04 16:25:09.197 | DEBUG    | src.training.trainer:fit:69 - Epoch 4/100 | Train: 0.005546 | Val: 0.001591
+2026-07-04 16:25:16.285 | DEBUG    | src.training.trainer:fit:69 - Epoch 5/100 | Train: 0.004449 | Val: 0.001560
+2026-07-04 16:25:23.248 | DEBUG    | src.training.trainer:fit:69 - Epoch 6/100 | Train: 0.003591 | Val: 0.001833
+2026-07-04 16:25:30.293 | DEBUG    | src.training.trainer:fit:69 - Epoch 7/100 | Train: 0.002805 | Val: 0.001048
+2026-07-04 16:25:37.248 | DEBUG    | src.training.trainer:fit:69 - Epoch 8/100 | Train: 0.002336 | Val: 0.001263
+2026-07-04 16:25:44.174 | DEBUG    | src.training.trainer:fit:69 - Epoch 9/100 | Train: 0.002311 | Val: 0.001238
+2026-07-04 16:25:55.335 | DEBUG    | src.training.trainer:fit:69 - Epoch 10/100 | Train: 0.002143 | Val: 0.001159
+2026-07-04 16:26:08.262 | DEBUG    | src.training.trainer:fit:69 - Epoch 11/100 | Train: 0.001685 | Val: 0.002245
+2026-07-04 16:26:15.834 | DEBUG    | src.training.trainer:fit:69 - Epoch 12/100 | Train: 0.001685 | Val: 0.000791
+2026-07-04 16:26:22.580 | DEBUG    | src.training.trainer:fit:69 - Epoch 13/100 | Train: 0.001597 | Val: 0.001471
+2026-07-04 16:26:29.516 | DEBUG    | src.training.trainer:fit:69 - Epoch 14/100 | Train: 0.001488 | Val: 0.002394
+2026-07-04 16:26:36.935 | DEBUG    | src.training.trainer:fit:69 - Epoch 15/100 | Train: 0.001537 | Val: 0.000786
+2026-07-04 16:26:49.819 | DEBUG    | src.training.trainer:fit:69 - Epoch 16/100 | Train: 0.001222 | Val: 0.000904
+2026-07-04 16:27:02.731 | DEBUG    | src.training.trainer:fit:69 - Epoch 17/100 | Train: 0.001308 | Val: 0.000807
+2026-07-04 16:27:15.618 | DEBUG    | src.training.trainer:fit:69 - Epoch 18/100 | Train: 0.001209 | Val: 0.001557
+2026-07-04 16:27:28.383 | DEBUG    | src.training.trainer:fit:69 - Epoch 19/100 | Train: 0.001614 | Val: 0.000955
+2026-07-04 16:27:41.314 | DEBUG    | src.training.trainer:fit:69 - Epoch 20/100 | Train: 0.001409 | Val: 0.000743
+2026-07-04 16:27:51.014 | DEBUG    | src.training.trainer:fit:69 - Epoch 21/100 | Train: 0.001019 | Val: 0.000767
+2026-07-04 16:28:03.331 | DEBUG    | src.training.trainer:fit:69 - Epoch 22/100 | Train: 0.000993 | Val: 0.001767
+2026-07-04 16:28:16.258 | DEBUG    | src.training.trainer:fit:69 - Epoch 23/100 | Train: 0.000986 | Val: 0.000999
+2026-07-04 16:28:29.056 | DEBUG    | src.training.trainer:fit:69 - Epoch 24/100 | Train: 0.000919 | Val: 0.000833
+2026-07-04 16:28:41.901 | DEBUG    | src.training.trainer:fit:69 - Epoch 25/100 | Train: 0.001002 | Val: 0.000956
+2026-07-04 16:28:54.686 | DEBUG    | src.training.trainer:fit:69 - Epoch 26/100 | Train: 0.000949 | Val: 0.000873
+2026-07-04 16:29:07.626 | DEBUG    | src.training.trainer:fit:69 - Epoch 27/100 | Train: 0.000990 | Val: 0.000821
+2026-07-04 16:29:18.721 | DEBUG    | src.training.trainer:fit:69 - Epoch 28/100 | Train: 0.000822 | Val: 0.000819
+2026-07-04 16:29:25.865 | DEBUG    | src.training.trainer:fit:69 - Epoch 29/100 | Train: 0.000789 | Val: 0.000878
+2026-07-04 16:29:33.333 | DEBUG    | src.training.trainer:fit:69 - Epoch 30/100 | Train: 0.000811 | Val: 0.001819
+2026-07-04 16:29:33.333 | INFO     | src.training.callbacks:on_epoch_end:26 - Early stopping triggered at epoch 30
+2026-07-04 16:29:40.547 | DEBUG    | src.training.trainer:fit:69 - Epoch 1/100 | Train: 0.032078 | Val: 0.002828
+2026-07-04 16:29:47.661 | DEBUG    | src.training.trainer:fit:69 - Epoch 2/100 | Train: 0.010360 | Val: 0.001627
+2026-07-04 16:29:57.898 | DEBUG    | src.training.trainer:fit:69 - Epoch 3/100 | Train: 0.005172 | Val: 0.001977
+2026-07-04 16:30:12.413 | DEBUG    | src.training.trainer:fit:69 - Epoch 4/100 | Train: 0.003492 | Val: 0.001049
+2026-07-04 16:30:26.683 | DEBUG    | src.training.trainer:fit:69 - Epoch 5/100 | Train: 0.002467 | Val: 0.000967
+2026-07-04 16:30:40.549 | DEBUG    | src.training.trainer:fit:69 - Epoch 6/100 | Train: 0.002094 | Val: 0.001074
+2026-07-04 16:30:54.330 | DEBUG    | src.training.trainer:fit:69 - Epoch 7/100 | Train: 0.001681 | Val: 0.001494
+2026-07-04 16:31:04.149 | DEBUG    | src.training.trainer:fit:69 - Epoch 8/100 | Train: 0.001374 | Val: 0.000768
+2026-07-04 16:31:11.146 | DEBUG    | src.training.trainer:fit:69 - Epoch 9/100 | Train: 0.001394 | Val: 0.000815
+2026-07-04 16:31:18.637 | DEBUG    | src.training.trainer:fit:69 - Epoch 10/100 | Train: 0.001263 | Val: 0.000854
+2026-07-04 16:31:25.828 | DEBUG    | src.training.trainer:fit:69 - Epoch 11/100 | Train: 0.001064 | Val: 0.000714
+2026-07-04 16:31:32.994 | DEBUG    | src.training.trainer:fit:69 - Epoch 12/100 | Train: 0.001141 | Val: 0.000764
+2026-07-04 16:31:47.180 | DEBUG    | src.training.trainer:fit:69 - Epoch 13/100 | Train: 0.001016 | Val: 0.000899
+2026-07-04 16:32:01.448 | DEBUG    | src.training.trainer:fit:69 - Epoch 14/100 | Train: 0.000988 | Val: 0.001060
+2026-07-04 16:32:12.331 | DEBUG    | src.training.trainer:fit:69 - Epoch 15/100 | Train: 0.000935 | Val: 0.001457
+2026-07-04 16:32:20.950 | DEBUG    | src.training.trainer:fit:69 - Epoch 16/100 | Train: 0.000974 | Val: 0.001001
+2026-07-04 16:32:35.582 | DEBUG    | src.training.trainer:fit:69 - Epoch 17/100 | Train: 0.000876 | Val: 0.000926
+2026-07-04 16:32:49.612 | DEBUG    | src.training.trainer:fit:69 - Epoch 18/100 | Train: 0.000807 | Val: 0.001327
+2026-07-04 16:33:03.548 | DEBUG    | src.training.trainer:fit:69 - Epoch 19/100 | Train: 0.000859 | Val: 0.000855
+2026-07-04 16:33:17.605 | DEBUG    | src.training.trainer:fit:69 - Epoch 20/100 | Train: 0.000818 | Val: 0.000793
+2026-07-04 16:33:31.521 | DEBUG    | src.training.trainer:fit:69 - Epoch 21/100 | Train: 0.000737 | Val: 0.001036
+2026-07-04 16:33:31.521 | INFO     | src.training.callbacks:on_epoch_end:26 - Early stopping triggered at epoch 21
+2026-07-04 16:33:41.769 | DEBUG    | src.training.trainer:fit:69 - Epoch 1/100 | Train: 0.026215 | Val: 0.001563
+2026-07-04 16:33:52.097 | DEBUG    | src.training.trainer:fit:69 - Epoch 2/100 | Train: 0.005957 | Val: 0.002208
+2026-07-04 16:34:02.357 | DEBUG    | src.training.trainer:fit:69 - Epoch 3/100 | Train: 0.003795 | Val: 0.001236
+2026-07-04 16:34:12.677 | DEBUG    | src.training.trainer:fit:69 - Epoch 4/100 | Train: 0.002695 | Val: 0.000896
+2026-07-04 16:34:23.009 | DEBUG    | src.training.trainer:fit:69 - Epoch 5/100 | Train: 0.002110 | Val: 0.000883
+2026-07-04 16:34:33.193 | DEBUG    | src.training.trainer:fit:69 - Epoch 6/100 | Train: 0.001677 | Val: 0.001202
+2026-07-04 16:34:43.477 | DEBUG    | src.training.trainer:fit:69 - Epoch 7/100 | Train: 0.001375 | Val: 0.001060
+2026-07-04 16:34:52.076 | DEBUG    | src.training.trainer:fit:69 - Epoch 8/100 | Train: 0.001300 | Val: 0.000873
+2026-07-04 16:35:00.443 | DEBUG    | src.training.trainer:fit:69 - Epoch 9/100 | Train: 0.001287 | Val: 0.000800
+2026-07-04 16:35:10.693 | DEBUG    | src.training.trainer:fit:69 - Epoch 10/100 | Train: 0.001026 | Val: 0.000806
+2026-07-04 16:35:20.967 | DEBUG    | src.training.trainer:fit:69 - Epoch 11/100 | Train: 0.001009 | Val: 0.000666
+2026-07-04 16:35:31.280 | DEBUG    | src.training.trainer:fit:69 - Epoch 12/100 | Train: 0.000948 | Val: 0.001034
+2026-07-04 16:35:40.993 | DEBUG    | src.training.trainer:fit:69 - Epoch 13/100 | Train: 0.000905 | Val: 0.000852
+2026-07-04 16:35:46.203 | DEBUG    | src.training.trainer:fit:69 - Epoch 14/100 | Train: 0.000839 | Val: 0.000805
+2026-07-04 16:35:56.161 | DEBUG    | src.training.trainer:fit:69 - Epoch 15/100 | Train: 0.000770 | Val: 0.000758
+2026-07-04 16:36:06.235 | DEBUG    | src.training.trainer:fit:69 - Epoch 16/100 | Train: 0.000763 | Val: 0.000839
+2026-07-04 16:36:16.393 | DEBUG    | src.training.trainer:fit:69 - Epoch 17/100 | Train: 0.000790 | Val: 0.000954
+2026-07-04 16:36:26.433 | DEBUG    | src.training.trainer:fit:69 - Epoch 18/100 | Train: 0.000773 | Val: 0.000751
+2026-07-04 16:36:36.508 | DEBUG    | src.training.trainer:fit:69 - Epoch 19/100 | Train: 0.000729 | Val: 0.000767
+2026-07-04 16:36:46.669 | DEBUG    | src.training.trainer:fit:69 - Epoch 20/100 | Train: 0.000661 | Val: 0.000749
+2026-07-04 16:36:56.881 | DEBUG    | src.training.trainer:fit:69 - Epoch 21/100 | Train: 0.000722 | Val: 0.001114
+2026-07-04 16:36:56.882 | INFO     | src.training.callbacks:on_epoch_end:26 - Early stopping triggered at epoch 21
+2026-07-04 16:43:17.386 | INFO     | src.data.loader:load_data:15 - Loading cached data from data\raw\SPY_2010-01-01_2026-06-01.parquet
+2026-07-04 16:43:17.482 | INFO     | src.data.pipeline:fit_transform:41 - Created 4016 sequences with 26 features each.
+2026-07-04 16:43:23.879 | DEBUG    | src.training.trainer:fit:69 - Epoch 1/200 | Train: 0.030415 | Val: 0.003111
+2026-07-04 16:43:23.893 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 16:43:31.274 | DEBUG    | src.training.trainer:fit:69 - Epoch 2/200 | Train: 0.006887 | Val: 0.003280
+2026-07-04 16:43:41.147 | DEBUG    | src.training.trainer:fit:69 - Epoch 3/200 | Train: 0.003846 | Val: 0.000991
+2026-07-04 16:43:41.155 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 16:43:51.092 | DEBUG    | src.training.trainer:fit:69 - Epoch 4/200 | Train: 0.002862 | Val: 0.001069
+2026-07-04 16:44:01.022 | DEBUG    | src.training.trainer:fit:69 - Epoch 5/200 | Train: 0.002327 | Val: 0.001120
+2026-07-04 16:44:10.689 | DEBUG    | src.training.trainer:fit:69 - Epoch 6/200 | Train: 0.001892 | Val: 0.001393
+2026-07-04 16:44:20.504 | DEBUG    | src.training.trainer:fit:69 - Epoch 7/200 | Train: 0.001696 | Val: 0.000891
+2026-07-04 16:44:20.512 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 16:44:30.235 | DEBUG    | src.training.trainer:fit:69 - Epoch 8/200 | Train: 0.001409 | Val: 0.000854
+2026-07-04 16:44:30.242 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 16:44:40.263 | DEBUG    | src.training.trainer:fit:69 - Epoch 9/200 | Train: 0.001226 | Val: 0.001000
+2026-07-04 16:44:50.117 | DEBUG    | src.training.trainer:fit:69 - Epoch 10/200 | Train: 0.001141 | Val: 0.001233
+2026-07-04 16:44:59.906 | DEBUG    | src.training.trainer:fit:69 - Epoch 11/200 | Train: 0.001141 | Val: 0.001071
+2026-07-04 16:45:10.046 | DEBUG    | src.training.trainer:fit:69 - Epoch 12/200 | Train: 0.001065 | Val: 0.000756
+2026-07-04 16:45:10.053 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 16:45:19.897 | DEBUG    | src.training.trainer:fit:69 - Epoch 13/200 | Train: 0.000916 | Val: 0.000892
+2026-07-04 16:45:29.844 | DEBUG    | src.training.trainer:fit:69 - Epoch 14/200 | Train: 0.000838 | Val: 0.000788
+2026-07-04 16:45:39.700 | DEBUG    | src.training.trainer:fit:69 - Epoch 15/200 | Train: 0.000831 | Val: 0.000893
+2026-07-04 16:45:49.564 | DEBUG    | src.training.trainer:fit:69 - Epoch 16/200 | Train: 0.000745 | Val: 0.000781
+2026-07-04 16:45:59.437 | DEBUG    | src.training.trainer:fit:69 - Epoch 17/200 | Train: 0.000757 | Val: 0.000690
+2026-07-04 16:45:59.444 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 16:46:09.366 | DEBUG    | src.training.trainer:fit:69 - Epoch 18/200 | Train: 0.000756 | Val: 0.000857
+2026-07-04 16:46:19.330 | DEBUG    | src.training.trainer:fit:69 - Epoch 19/200 | Train: 0.000689 | Val: 0.000778
+2026-07-04 16:46:29.166 | DEBUG    | src.training.trainer:fit:69 - Epoch 20/200 | Train: 0.000678 | Val: 0.000740
+2026-07-04 16:46:39.032 | DEBUG    | src.training.trainer:fit:69 - Epoch 21/200 | Train: 0.000700 | Val: 0.000783
+2026-07-04 16:46:48.898 | DEBUG    | src.training.trainer:fit:69 - Epoch 22/200 | Train: 0.000642 | Val: 0.000912
+2026-07-04 16:46:58.619 | DEBUG    | src.training.trainer:fit:69 - Epoch 23/200 | Train: 0.000626 | Val: 0.000813
+2026-07-04 16:47:08.485 | DEBUG    | src.training.trainer:fit:69 - Epoch 24/200 | Train: 0.000605 | Val: 0.000949
+2026-07-04 16:47:18.193 | DEBUG    | src.training.trainer:fit:69 - Epoch 25/200 | Train: 0.000632 | Val: 0.001141
+2026-07-04 16:47:27.895 | DEBUG    | src.training.trainer:fit:69 - Epoch 26/200 | Train: 0.000558 | Val: 0.000943
+2026-07-04 16:47:37.571 | DEBUG    | src.training.trainer:fit:69 - Epoch 27/200 | Train: 0.000550 | Val: 0.000976
+2026-07-04 16:47:47.265 | DEBUG    | src.training.trainer:fit:69 - Epoch 28/200 | Train: 0.000553 | Val: 0.000844
+2026-07-04 16:47:56.798 | DEBUG    | src.training.trainer:fit:69 - Epoch 29/200 | Train: 0.000503 | Val: 0.000951
+2026-07-04 16:48:06.809 | DEBUG    | src.training.trainer:fit:69 - Epoch 30/200 | Train: 0.000494 | Val: 0.000829
+2026-07-04 16:48:16.514 | DEBUG    | src.training.trainer:fit:69 - Epoch 31/200 | Train: 0.000491 | Val: 0.000832
+2026-07-04 16:48:26.259 | DEBUG    | src.training.trainer:fit:69 - Epoch 32/200 | Train: 0.000478 | Val: 0.000886
+2026-07-04 16:48:26.259 | INFO     | src.training.callbacks:on_epoch_end:26 - Early stopping triggered at epoch 32
+2026-07-04 16:48:27.381 | INFO     | src.backtest.simulator:run_backtest:19 - Backtest results: Sharpe=3.41, Return=nan%
+2026-07-04 17:09:56.220 | INFO     | src.data.loader:load_data:15 - Loading cached data from data\raw\SPY_2010-01-01_2026-06-01.parquet
+2026-07-04 17:09:56.285 | INFO     | src.data.pipeline:fit_transform:41 - Created 4016 sequences with 26 features each.
+2026-07-04 17:10:02.604 | DEBUG    | src.training.trainer:fit:69 - Epoch 1/200 | Train: 0.036447 | Val: 0.003557
+2026-07-04 17:10:02.609 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:10:07.708 | DEBUG    | src.training.trainer:fit:69 - Epoch 2/200 | Train: 0.006085 | Val: 0.002276
+2026-07-04 17:10:07.713 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:10:12.892 | DEBUG    | src.training.trainer:fit:69 - Epoch 3/200 | Train: 0.003475 | Val: 0.002084
+2026-07-04 17:10:12.897 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:10:20.425 | DEBUG    | src.training.trainer:fit:69 - Epoch 4/200 | Train: 0.002229 | Val: 0.000870
+2026-07-04 17:10:20.432 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:10:30.324 | DEBUG    | src.training.trainer:fit:69 - Epoch 5/200 | Train: 0.001866 | Val: 0.001607
+2026-07-04 17:10:36.167 | DEBUG    | src.training.trainer:fit:69 - Epoch 6/200 | Train: 0.001502 | Val: 0.000851
+2026-07-04 17:10:36.172 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:10:41.282 | DEBUG    | src.training.trainer:fit:69 - Epoch 7/200 | Train: 0.001341 | Val: 0.000812
+2026-07-04 17:10:41.286 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:10:46.412 | DEBUG    | src.training.trainer:fit:69 - Epoch 8/200 | Train: 0.001174 | Val: 0.000901
+2026-07-04 17:10:51.423 | DEBUG    | src.training.trainer:fit:69 - Epoch 9/200 | Train: 0.001147 | Val: 0.001372
+2026-07-04 17:10:56.399 | DEBUG    | src.training.trainer:fit:69 - Epoch 10/200 | Train: 0.000978 | Val: 0.000886
+2026-07-04 17:11:01.409 | DEBUG    | src.training.trainer:fit:69 - Epoch 11/200 | Train: 0.000992 | Val: 0.000824
+2026-07-04 17:11:06.463 | DEBUG    | src.training.trainer:fit:69 - Epoch 12/200 | Train: 0.000889 | Val: 0.001351
+2026-07-04 17:11:11.369 | DEBUG    | src.training.trainer:fit:69 - Epoch 13/200 | Train: 0.000866 | Val: 0.001538
+2026-07-04 17:11:16.311 | DEBUG    | src.training.trainer:fit:69 - Epoch 14/200 | Train: 0.000803 | Val: 0.000833
+2026-07-04 17:11:21.457 | DEBUG    | src.training.trainer:fit:69 - Epoch 15/200 | Train: 0.000738 | Val: 0.000732
+2026-07-04 17:11:21.462 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:11:26.550 | DEBUG    | src.training.trainer:fit:69 - Epoch 16/200 | Train: 0.000710 | Val: 0.000783
+2026-07-04 17:11:31.555 | DEBUG    | src.training.trainer:fit:69 - Epoch 17/200 | Train: 0.000667 | Val: 0.000898
+2026-07-04 17:11:36.533 | DEBUG    | src.training.trainer:fit:69 - Epoch 18/200 | Train: 0.000693 | Val: 0.000822
+2026-07-04 17:11:41.613 | DEBUG    | src.training.trainer:fit:69 - Epoch 19/200 | Train: 0.000636 | Val: 0.000810
+2026-07-04 17:11:46.595 | DEBUG    | src.training.trainer:fit:69 - Epoch 20/200 | Train: 0.000608 | Val: 0.000807
+2026-07-04 17:11:51.573 | DEBUG    | src.training.trainer:fit:69 - Epoch 21/200 | Train: 0.000630 | Val: 0.001030
+2026-07-04 17:11:56.496 | DEBUG    | src.training.trainer:fit:69 - Epoch 22/200 | Train: 0.000644 | Val: 0.001059
+2026-07-04 17:12:01.702 | DEBUG    | src.training.trainer:fit:69 - Epoch 23/200 | Train: 0.000659 | Val: 0.000920
+2026-07-04 17:12:08.555 | DEBUG    | src.training.trainer:fit:69 - Epoch 24/200 | Train: 0.000573 | Val: 0.001012
+2026-07-04 17:12:15.888 | DEBUG    | src.training.trainer:fit:69 - Epoch 25/200 | Train: 0.000594 | Val: 0.001038
+2026-07-04 17:12:25.727 | DEBUG    | src.training.trainer:fit:69 - Epoch 26/200 | Train: 0.000522 | Val: 0.000771
+2026-07-04 17:12:35.612 | DEBUG    | src.training.trainer:fit:69 - Epoch 27/200 | Train: 0.000499 | Val: 0.001137
+2026-07-04 17:12:45.573 | DEBUG    | src.training.trainer:fit:69 - Epoch 28/200 | Train: 0.000476 | Val: 0.001063
+2026-07-04 17:12:55.328 | DEBUG    | src.training.trainer:fit:69 - Epoch 29/200 | Train: 0.000473 | Val: 0.000812
+2026-07-04 17:13:05.442 | DEBUG    | src.training.trainer:fit:69 - Epoch 30/200 | Train: 0.000474 | Val: 0.001138
+2026-07-04 17:13:05.442 | INFO     | src.training.callbacks:on_epoch_end:26 - Early stopping triggered at epoch 30
+2026-07-04 17:13:06.397 | INFO     | src.backtest.simulator:run_backtest:84 - Backtest results: Sharpe=-0.01, Return=-0.01%
+2026-07-04 17:15:04.954 | INFO     | src.data.loader:load_data:15 - Loading cached data from data\raw\SPY_2010-01-01_2026-06-01.parquet
+2026-07-04 17:15:05.020 | INFO     | src.data.pipeline:fit_transform:41 - Created 4016 sequences with 26 features each.
+2026-07-04 17:15:16.059 | DEBUG    | src.training.trainer:fit:69 - Epoch 1/200 | Train: 0.023949 | Val: 0.002617
+2026-07-04 17:15:16.069 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:15:25.841 | DEBUG    | src.training.trainer:fit:69 - Epoch 2/200 | Train: 0.006685 | Val: 0.001067
+2026-07-04 17:15:25.848 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:15:31.874 | DEBUG    | src.training.trainer:fit:69 - Epoch 3/200 | Train: 0.003648 | Val: 0.001024
+2026-07-04 17:15:31.878 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:15:37.033 | DEBUG    | src.training.trainer:fit:69 - Epoch 4/200 | Train: 0.002276 | Val: 0.000976
+2026-07-04 17:15:37.038 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:15:42.184 | DEBUG    | src.training.trainer:fit:69 - Epoch 5/200 | Train: 0.001880 | Val: 0.001355
+2026-07-04 17:15:48.391 | DEBUG    | src.training.trainer:fit:69 - Epoch 6/200 | Train: 0.001533 | Val: 0.001428
+2026-07-04 17:15:58.243 | DEBUG    | src.training.trainer:fit:69 - Epoch 7/200 | Train: 0.001389 | Val: 0.001013
+2026-07-04 17:16:08.066 | DEBUG    | src.training.trainer:fit:69 - Epoch 8/200 | Train: 0.001102 | Val: 0.001505
+2026-07-04 17:16:15.385 | DEBUG    | src.training.trainer:fit:69 - Epoch 9/200 | Train: 0.001077 | Val: 0.000726
+2026-07-04 17:16:15.394 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:16:25.434 | DEBUG    | src.training.trainer:fit:69 - Epoch 10/200 | Train: 0.000977 | Val: 0.000764
+2026-07-04 17:16:34.197 | DEBUG    | src.training.trainer:fit:69 - Epoch 11/200 | Train: 0.000898 | Val: 0.000757
+2026-07-04 17:16:43.126 | DEBUG    | src.training.trainer:fit:69 - Epoch 12/200 | Train: 0.000843 | Val: 0.000936
+2026-07-04 17:16:52.840 | DEBUG    | src.training.trainer:fit:69 - Epoch 13/200 | Train: 0.000804 | Val: 0.000818
+2026-07-04 17:17:02.372 | DEBUG    | src.training.trainer:fit:69 - Epoch 14/200 | Train: 0.000753 | Val: 0.000780
+2026-07-04 17:17:12.056 | DEBUG    | src.training.trainer:fit:69 - Epoch 15/200 | Train: 0.000734 | Val: 0.000961
+2026-07-04 17:17:21.035 | DEBUG    | src.training.trainer:fit:69 - Epoch 16/200 | Train: 0.000699 | Val: 0.001006
+2026-07-04 17:17:27.501 | DEBUG    | src.training.trainer:fit:69 - Epoch 17/200 | Train: 0.000657 | Val: 0.000786
+2026-07-04 17:17:35.316 | DEBUG    | src.training.trainer:fit:69 - Epoch 18/200 | Train: 0.000626 | Val: 0.000985
+2026-07-04 17:17:45.320 | DEBUG    | src.training.trainer:fit:69 - Epoch 19/200 | Train: 0.000620 | Val: 0.000988
+2026-07-04 17:17:54.782 | DEBUG    | src.training.trainer:fit:69 - Epoch 20/200 | Train: 0.000626 | Val: 0.000694
+2026-07-04 17:17:54.787 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:18:00.201 | DEBUG    | src.training.trainer:fit:69 - Epoch 21/200 | Train: 0.000596 | Val: 0.000770
+2026-07-04 17:18:10.200 | DEBUG    | src.training.trainer:fit:69 - Epoch 22/200 | Train: 0.000577 | Val: 0.000954
+2026-07-04 17:18:20.018 | DEBUG    | src.training.trainer:fit:69 - Epoch 23/200 | Train: 0.000582 | Val: 0.001092
+2026-07-04 17:18:29.928 | DEBUG    | src.training.trainer:fit:69 - Epoch 24/200 | Train: 0.000544 | Val: 0.000860
+2026-07-04 17:18:36.916 | DEBUG    | src.training.trainer:fit:69 - Epoch 25/200 | Train: 0.000508 | Val: 0.000913
+2026-07-04 17:18:43.212 | DEBUG    | src.training.trainer:fit:69 - Epoch 26/200 | Train: 0.000545 | Val: 0.001046
+2026-07-04 17:18:53.350 | DEBUG    | src.training.trainer:fit:69 - Epoch 27/200 | Train: 0.000504 | Val: 0.001148
+2026-07-04 17:19:02.585 | DEBUG    | src.training.trainer:fit:69 - Epoch 28/200 | Train: 0.000480 | Val: 0.000725
+2026-07-04 17:19:08.032 | DEBUG    | src.training.trainer:fit:69 - Epoch 29/200 | Train: 0.000471 | Val: 0.000809
+2026-07-04 17:19:18.293 | DEBUG    | src.training.trainer:fit:69 - Epoch 30/200 | Train: 0.000472 | Val: 0.000796
+2026-07-04 17:19:26.491 | DEBUG    | src.training.trainer:fit:69 - Epoch 31/200 | Train: 0.000462 | Val: 0.000878
+2026-07-04 17:19:32.594 | DEBUG    | src.training.trainer:fit:69 - Epoch 32/200 | Train: 0.000417 | Val: 0.000931
+2026-07-04 17:19:42.563 | DEBUG    | src.training.trainer:fit:69 - Epoch 33/200 | Train: 0.000429 | Val: 0.000994
+2026-07-04 17:19:52.587 | DEBUG    | src.training.trainer:fit:69 - Epoch 34/200 | Train: 0.000424 | Val: 0.000900
+2026-07-04 17:20:01.822 | DEBUG    | src.training.trainer:fit:69 - Epoch 35/200 | Train: 0.000415 | Val: 0.001098
+2026-07-04 17:20:01.822 | INFO     | src.training.callbacks:on_epoch_end:26 - Early stopping triggered at epoch 35
+2026-07-04 17:20:02.758 | INFO     | src.backtest.simulator:run_backtest:56 - Backtest results: Sharpe=-3.34, Return=-5.04%
+2026-07-04 17:23:09.171 | INFO     | src.data.loader:load_data:15 - Loading cached data from data\raw\SPY_2010-01-01_2026-06-01.parquet
+2026-07-04 17:23:09.235 | INFO     | src.data.pipeline:fit_transform:41 - Created 4016 sequences with 26 features each.
+2026-07-04 17:23:15.352 | DEBUG    | src.training.trainer:fit:69 - Epoch 1/200 | Train: 0.025352 | Val: 0.001881
+2026-07-04 17:23:15.360 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:23:21.514 | DEBUG    | src.training.trainer:fit:69 - Epoch 2/200 | Train: 0.005637 | Val: 0.000910
+2026-07-04 17:23:21.520 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:23:31.475 | DEBUG    | src.training.trainer:fit:69 - Epoch 3/200 | Train: 0.003349 | Val: 0.001046
+2026-07-04 17:23:41.575 | DEBUG    | src.training.trainer:fit:69 - Epoch 4/200 | Train: 0.002504 | Val: 0.001599
+2026-07-04 17:23:48.615 | DEBUG    | src.training.trainer:fit:69 - Epoch 5/200 | Train: 0.001893 | Val: 0.000893
+2026-07-04 17:23:48.619 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:23:54.577 | DEBUG    | src.training.trainer:fit:69 - Epoch 6/200 | Train: 0.001562 | Val: 0.000783
+2026-07-04 17:23:54.583 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:24:04.760 | DEBUG    | src.training.trainer:fit:69 - Epoch 7/200 | Train: 0.001391 | Val: 0.001491
+2026-07-04 17:24:14.602 | DEBUG    | src.training.trainer:fit:69 - Epoch 8/200 | Train: 0.001230 | Val: 0.000714
+2026-07-04 17:24:14.610 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:24:24.616 | DEBUG    | src.training.trainer:fit:69 - Epoch 9/200 | Train: 0.001126 | Val: 0.000835
+2026-07-04 17:24:34.582 | DEBUG    | src.training.trainer:fit:69 - Epoch 10/200 | Train: 0.000955 | Val: 0.001073
+2026-07-04 17:24:44.688 | DEBUG    | src.training.trainer:fit:69 - Epoch 11/200 | Train: 0.000914 | Val: 0.001205
+2026-07-04 17:24:54.898 | DEBUG    | src.training.trainer:fit:69 - Epoch 12/200 | Train: 0.000923 | Val: 0.001431
+2026-07-04 17:25:05.132 | DEBUG    | src.training.trainer:fit:69 - Epoch 13/200 | Train: 0.000795 | Val: 0.001076
+2026-07-04 17:25:13.612 | DEBUG    | src.training.trainer:fit:69 - Epoch 14/200 | Train: 0.000821 | Val: 0.000769
+2026-07-04 17:25:23.696 | DEBUG    | src.training.trainer:fit:69 - Epoch 15/200 | Train: 0.000765 | Val: 0.000959
+2026-07-04 17:25:33.774 | DEBUG    | src.training.trainer:fit:69 - Epoch 16/200 | Train: 0.000796 | Val: 0.001137
+2026-07-04 17:25:43.683 | DEBUG    | src.training.trainer:fit:69 - Epoch 17/200 | Train: 0.000636 | Val: 0.000780
+2026-07-04 17:25:53.704 | DEBUG    | src.training.trainer:fit:69 - Epoch 18/200 | Train: 0.000636 | Val: 0.000787
+2026-07-04 17:26:03.792 | DEBUG    | src.training.trainer:fit:69 - Epoch 19/200 | Train: 0.000608 | Val: 0.000931
+2026-07-04 17:26:11.658 | DEBUG    | src.training.trainer:fit:69 - Epoch 20/200 | Train: 0.000585 | Val: 0.000932
+2026-07-04 17:26:21.447 | DEBUG    | src.training.trainer:fit:69 - Epoch 21/200 | Train: 0.000577 | Val: 0.000977
+2026-07-04 17:26:26.434 | DEBUG    | src.training.trainer:fit:69 - Epoch 22/200 | Train: 0.000561 | Val: 0.000817
+2026-07-04 17:26:32.224 | DEBUG    | src.training.trainer:fit:69 - Epoch 23/200 | Train: 0.000523 | Val: 0.000772
+2026-07-04 17:26:32.224 | INFO     | src.training.callbacks:on_epoch_end:26 - Early stopping triggered at epoch 23
+2026-07-04 17:26:33.157 | INFO     | src.backtest.simulator:run_backtest:54 - Correlation between predictions and future returns: nan
+2026-07-04 17:26:33.160 | INFO     | src.backtest.simulator:run_backtest:58 - Backtest results: Sharpe=0.02, Return=0.02%
+2026-07-04 17:30:11.339 | INFO     | src.data.loader:load_data:15 - Loading cached data from data\raw\SPY_2010-01-01_2026-06-01.parquet
+2026-07-04 17:30:11.403 | INFO     | src.data.pipeline:fit_transform:41 - Created 4016 sequences with 26 features each.
+2026-07-04 17:30:17.738 | DEBUG    | src.training.trainer:fit:69 - Epoch 1/200 | Train: 0.017696 | Val: 0.001908
+2026-07-04 17:30:17.748 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:30:27.167 | DEBUG    | src.training.trainer:fit:69 - Epoch 2/200 | Train: 0.005305 | Val: 0.001580
+2026-07-04 17:30:27.173 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:30:37.036 | DEBUG    | src.training.trainer:fit:69 - Epoch 3/200 | Train: 0.002673 | Val: 0.000999
+2026-07-04 17:30:37.043 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:30:46.901 | DEBUG    | src.training.trainer:fit:69 - Epoch 4/200 | Train: 0.002180 | Val: 0.002230
+2026-07-04 17:30:56.623 | DEBUG    | src.training.trainer:fit:69 - Epoch 5/200 | Train: 0.001569 | Val: 0.000983
+2026-07-04 17:30:56.631 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:31:06.527 | DEBUG    | src.training.trainer:fit:69 - Epoch 6/200 | Train: 0.001382 | Val: 0.001522
+2026-07-04 17:31:15.853 | DEBUG    | src.training.trainer:fit:69 - Epoch 7/200 | Train: 0.001146 | Val: 0.001141
+2026-07-04 17:31:25.802 | DEBUG    | src.training.trainer:fit:69 - Epoch 8/200 | Train: 0.001031 | Val: 0.000913
+2026-07-04 17:31:25.809 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:31:35.146 | DEBUG    | src.training.trainer:fit:69 - Epoch 9/200 | Train: 0.000942 | Val: 0.000890
+2026-07-04 17:31:35.153 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:31:44.780 | DEBUG    | src.training.trainer:fit:69 - Epoch 10/200 | Train: 0.000891 | Val: 0.000880
+2026-07-04 17:31:44.787 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:31:54.386 | DEBUG    | src.training.trainer:fit:69 - Epoch 11/200 | Train: 0.000787 | Val: 0.000849
+2026-07-04 17:31:54.393 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:32:04.212 | DEBUG    | src.training.trainer:fit:69 - Epoch 12/200 | Train: 0.000839 | Val: 0.000827
+2026-07-04 17:32:04.219 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:32:14.221 | DEBUG    | src.training.trainer:fit:69 - Epoch 13/200 | Train: 0.000730 | Val: 0.001617
+2026-07-04 17:32:23.780 | DEBUG    | src.training.trainer:fit:69 - Epoch 14/200 | Train: 0.000719 | Val: 0.001142
+2026-07-04 17:32:33.318 | DEBUG    | src.training.trainer:fit:69 - Epoch 15/200 | Train: 0.000701 | Val: 0.000827
+2026-07-04 17:32:42.948 | DEBUG    | src.training.trainer:fit:69 - Epoch 16/200 | Train: 0.000618 | Val: 0.000885
+2026-07-04 17:32:52.596 | DEBUG    | src.training.trainer:fit:69 - Epoch 17/200 | Train: 0.000631 | Val: 0.000903
+2026-07-04 17:33:02.184 | DEBUG    | src.training.trainer:fit:69 - Epoch 18/200 | Train: 0.000598 | Val: 0.001187
+2026-07-04 17:33:11.977 | DEBUG    | src.training.trainer:fit:69 - Epoch 19/200 | Train: 0.000588 | Val: 0.001197
+2026-07-04 17:33:21.543 | DEBUG    | src.training.trainer:fit:69 - Epoch 20/200 | Train: 0.000549 | Val: 0.000944
+2026-07-04 17:33:31.264 | DEBUG    | src.training.trainer:fit:69 - Epoch 21/200 | Train: 0.000494 | Val: 0.000962
+2026-07-04 17:33:40.944 | DEBUG    | src.training.trainer:fit:69 - Epoch 22/200 | Train: 0.000540 | Val: 0.001022
+2026-07-04 17:33:50.666 | DEBUG    | src.training.trainer:fit:69 - Epoch 23/200 | Train: 0.000507 | Val: 0.001253
+2026-07-04 17:34:00.140 | DEBUG    | src.training.trainer:fit:69 - Epoch 24/200 | Train: 0.000482 | Val: 0.000855
+2026-07-04 17:34:09.962 | DEBUG    | src.training.trainer:fit:69 - Epoch 25/200 | Train: 0.000468 | Val: 0.000957
+2026-07-04 17:34:19.588 | DEBUG    | src.training.trainer:fit:69 - Epoch 26/200 | Train: 0.000457 | Val: 0.001156
+2026-07-04 17:34:29.114 | DEBUG    | src.training.trainer:fit:69 - Epoch 27/200 | Train: 0.000454 | Val: 0.001291
+2026-07-04 17:34:29.114 | INFO     | src.training.callbacks:on_epoch_end:26 - Early stopping triggered at epoch 27
+2026-07-04 17:34:30.180 | INFO     | src.backtest.simulator:run_backtest:54 - Correlation between predictions and future returns: nan
+2026-07-04 17:34:30.183 | INFO     | src.backtest.simulator:run_backtest:58 - Backtest results: Sharpe=-0.57, Return=-0.90%
+2026-07-04 17:38:14.639 | INFO     | src.data.loader:load_data:15 - Loading cached data from data\raw\SPY_2010-01-01_2026-06-01.parquet
+2026-07-04 17:38:14.721 | INFO     | src.data.pipeline:fit_transform:41 - Created 4016 sequences with 26 features each.
+2026-07-04 17:38:24.467 | DEBUG    | src.training.trainer:fit:69 - Epoch 1/200 | Train: 0.025637 | Val: 0.004632
+2026-07-04 17:38:24.478 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:38:34.986 | DEBUG    | src.training.trainer:fit:69 - Epoch 2/200 | Train: 0.007053 | Val: 0.001375
+2026-07-04 17:38:34.994 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:38:45.640 | DEBUG    | src.training.trainer:fit:69 - Epoch 3/200 | Train: 0.003624 | Val: 0.000859
+2026-07-04 17:38:45.648 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:38:56.094 | DEBUG    | src.training.trainer:fit:69 - Epoch 4/200 | Train: 0.002645 | Val: 0.001455
+2026-07-04 17:39:06.992 | DEBUG    | src.training.trainer:fit:69 - Epoch 5/200 | Train: 0.001882 | Val: 0.000817
+2026-07-04 17:39:07.000 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:39:14.284 | DEBUG    | src.training.trainer:fit:69 - Epoch 6/200 | Train: 0.001683 | Val: 0.001057
+2026-07-04 17:39:20.397 | DEBUG    | src.training.trainer:fit:69 - Epoch 7/200 | Train: 0.001510 | Val: 0.000851
+2026-07-04 17:39:27.104 | DEBUG    | src.training.trainer:fit:69 - Epoch 8/200 | Train: 0.001275 | Val: 0.000863
+2026-07-04 17:39:34.706 | DEBUG    | src.training.trainer:fit:69 - Epoch 9/200 | Train: 0.001210 | Val: 0.000914
+2026-07-04 17:39:41.802 | DEBUG    | src.training.trainer:fit:69 - Epoch 10/200 | Train: 0.001163 | Val: 0.000817
+2026-07-04 17:39:41.807 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:39:48.382 | DEBUG    | src.training.trainer:fit:69 - Epoch 11/200 | Train: 0.000921 | Val: 0.000803
+2026-07-04 17:39:48.386 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:39:56.520 | DEBUG    | src.training.trainer:fit:69 - Epoch 12/200 | Train: 0.000821 | Val: 0.000904
+2026-07-04 17:40:02.211 | DEBUG    | src.training.trainer:fit:69 - Epoch 13/200 | Train: 0.000874 | Val: 0.000720
+2026-07-04 17:40:02.216 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:40:08.136 | DEBUG    | src.training.trainer:fit:69 - Epoch 14/200 | Train: 0.000907 | Val: 0.000715
+2026-07-04 17:40:08.142 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:40:18.888 | DEBUG    | src.training.trainer:fit:69 - Epoch 15/200 | Train: 0.000779 | Val: 0.000907
+2026-07-04 17:40:26.654 | DEBUG    | src.training.trainer:fit:69 - Epoch 16/200 | Train: 0.000767 | Val: 0.000682
+2026-07-04 17:40:26.662 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:40:37.886 | DEBUG    | src.training.trainer:fit:69 - Epoch 17/200 | Train: 0.000659 | Val: 0.000811
+2026-07-04 17:40:48.972 | DEBUG    | src.training.trainer:fit:69 - Epoch 18/200 | Train: 0.000721 | Val: 0.000740
+2026-07-04 17:40:59.880 | DEBUG    | src.training.trainer:fit:69 - Epoch 19/200 | Train: 0.000692 | Val: 0.000744
+2026-07-04 17:41:11.056 | DEBUG    | src.training.trainer:fit:69 - Epoch 20/200 | Train: 0.000636 | Val: 0.000681
+2026-07-04 17:41:11.063 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:41:22.240 | DEBUG    | src.training.trainer:fit:69 - Epoch 21/200 | Train: 0.000568 | Val: 0.000693
+2026-07-04 17:41:33.737 | DEBUG    | src.training.trainer:fit:69 - Epoch 22/200 | Train: 0.000565 | Val: 0.000713
+2026-07-04 17:41:44.832 | DEBUG    | src.training.trainer:fit:69 - Epoch 23/200 | Train: 0.000570 | Val: 0.000917
+2026-07-04 17:41:56.117 | DEBUG    | src.training.trainer:fit:69 - Epoch 24/200 | Train: 0.000544 | Val: 0.000759
+2026-07-04 17:42:07.185 | DEBUG    | src.training.trainer:fit:69 - Epoch 25/200 | Train: 0.000595 | Val: 0.001059
+2026-07-04 17:42:18.144 | DEBUG    | src.training.trainer:fit:69 - Epoch 26/200 | Train: 0.000550 | Val: 0.000834
+2026-07-04 17:42:28.783 | DEBUG    | src.training.trainer:fit:69 - Epoch 27/200 | Train: 0.000522 | Val: 0.000733
+2026-07-04 17:42:39.217 | DEBUG    | src.training.trainer:fit:69 - Epoch 28/200 | Train: 0.000508 | Val: 0.000767
+2026-07-04 17:42:50.280 | DEBUG    | src.training.trainer:fit:69 - Epoch 29/200 | Train: 0.000490 | Val: 0.000740
+2026-07-04 17:42:59.949 | DEBUG    | src.training.trainer:fit:69 - Epoch 30/200 | Train: 0.000524 | Val: 0.000840
+2026-07-04 17:43:10.965 | DEBUG    | src.training.trainer:fit:69 - Epoch 31/200 | Train: 0.000494 | Val: 0.000801
+2026-07-04 17:43:21.410 | DEBUG    | src.training.trainer:fit:69 - Epoch 32/200 | Train: 0.000449 | Val: 0.000775
+2026-07-04 17:43:31.247 | DEBUG    | src.training.trainer:fit:69 - Epoch 33/200 | Train: 0.000442 | Val: 0.000786
+2026-07-04 17:43:40.004 | DEBUG    | src.training.trainer:fit:69 - Epoch 34/200 | Train: 0.000414 | Val: 0.000825
+2026-07-04 17:43:50.543 | DEBUG    | src.training.trainer:fit:69 - Epoch 35/200 | Train: 0.000467 | Val: 0.000901
+2026-07-04 17:43:50.544 | INFO     | src.training.callbacks:on_epoch_end:26 - Early stopping triggered at epoch 35
+2026-07-04 17:46:26.822 | INFO     | src.data.loader:load_data:15 - Loading cached data from data\raw\SPY_2010-01-01_2026-06-01.parquet
+2026-07-04 17:46:26.897 | INFO     | src.data.pipeline:fit_transform:41 - Created 4016 sequences with 26 features each.
+2026-07-04 17:46:35.938 | DEBUG    | src.training.trainer:fit:69 - Epoch 1/200 | Train: 0.017908 | Val: 0.003107
+2026-07-04 17:46:35.943 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:46:44.226 | DEBUG    | src.training.trainer:fit:69 - Epoch 2/200 | Train: 0.004939 | Val: 0.001052
+2026-07-04 17:46:44.233 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:46:54.709 | DEBUG    | src.training.trainer:fit:69 - Epoch 3/200 | Train: 0.002784 | Val: 0.001820
+2026-07-04 17:47:04.640 | DEBUG    | src.training.trainer:fit:69 - Epoch 4/200 | Train: 0.001944 | Val: 0.000926
+2026-07-04 17:47:04.644 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:47:10.007 | DEBUG    | src.training.trainer:fit:69 - Epoch 5/200 | Train: 0.001605 | Val: 0.001041
+2026-07-04 17:47:16.673 | DEBUG    | src.training.trainer:fit:69 - Epoch 6/200 | Train: 0.001322 | Val: 0.000790
+2026-07-04 17:47:16.681 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:47:27.324 | DEBUG    | src.training.trainer:fit:69 - Epoch 7/200 | Train: 0.001174 | Val: 0.000768
+2026-07-04 17:47:27.332 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:47:38.286 | DEBUG    | src.training.trainer:fit:69 - Epoch 8/200 | Train: 0.001055 | Val: 0.000782
+2026-07-04 17:47:49.463 | DEBUG    | src.training.trainer:fit:69 - Epoch 9/200 | Train: 0.000979 | Val: 0.000753
+2026-07-04 17:47:49.471 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:48:00.523 | DEBUG    | src.training.trainer:fit:69 - Epoch 10/200 | Train: 0.000884 | Val: 0.000706
+2026-07-04 17:48:00.528 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:48:06.096 | DEBUG    | src.training.trainer:fit:69 - Epoch 11/200 | Train: 0.000799 | Val: 0.001298
+2026-07-04 17:48:11.663 | DEBUG    | src.training.trainer:fit:69 - Epoch 12/200 | Train: 0.000815 | Val: 0.000735
+2026-07-04 17:48:16.985 | DEBUG    | src.training.trainer:fit:69 - Epoch 13/200 | Train: 0.000738 | Val: 0.000839
+2026-07-04 17:48:24.915 | DEBUG    | src.training.trainer:fit:69 - Epoch 14/200 | Train: 0.000711 | Val: 0.000780
+2026-07-04 17:48:36.073 | DEBUG    | src.training.trainer:fit:69 - Epoch 15/200 | Train: 0.000680 | Val: 0.000887
+2026-07-04 17:48:47.150 | DEBUG    | src.training.trainer:fit:69 - Epoch 16/200 | Train: 0.000619 | Val: 0.000733
+2026-07-04 17:48:58.428 | DEBUG    | src.training.trainer:fit:69 - Epoch 17/200 | Train: 0.000669 | Val: 0.001203
+2026-07-04 17:49:09.504 | DEBUG    | src.training.trainer:fit:69 - Epoch 18/200 | Train: 0.000659 | Val: 0.000872
+2026-07-04 17:49:20.714 | DEBUG    | src.training.trainer:fit:69 - Epoch 19/200 | Train: 0.000556 | Val: 0.000922
+2026-07-04 17:49:31.830 | DEBUG    | src.training.trainer:fit:69 - Epoch 20/200 | Train: 0.000533 | Val: 0.001059
+2026-07-04 17:49:42.947 | DEBUG    | src.training.trainer:fit:69 - Epoch 21/200 | Train: 0.000550 | Val: 0.000880
+2026-07-04 17:49:48.820 | DEBUG    | src.training.trainer:fit:69 - Epoch 22/200 | Train: 0.000497 | Val: 0.000856
+2026-07-04 17:50:00.138 | DEBUG    | src.training.trainer:fit:69 - Epoch 23/200 | Train: 0.000502 | Val: 0.001193
+2026-07-04 17:50:07.911 | DEBUG    | src.training.trainer:fit:69 - Epoch 24/200 | Train: 0.000471 | Val: 0.001010
+2026-07-04 17:50:17.513 | DEBUG    | src.training.trainer:fit:69 - Epoch 25/200 | Train: 0.000492 | Val: 0.000807
+2026-07-04 17:50:17.513 | INFO     | src.training.callbacks:on_epoch_end:26 - Early stopping triggered at epoch 25
+2026-07-04 17:50:18.623 | INFO     | src.backtest.simulator:run_backtest:54 - Correlation between predictions and future returns: nan
+2026-07-04 17:50:18.626 | INFO     | src.backtest.simulator:run_backtest:58 - Backtest results: Sharpe=1.23, Return=1.93%
+2026-07-04 17:51:39.219 | INFO     | src.data.loader:load_data:15 - Loading cached data from data\raw\SPY_2010-01-01_2026-06-01.parquet
+2026-07-04 17:51:39.282 | INFO     | src.data.pipeline:fit_transform:41 - Created 4016 sequences with 26 features each.
+2026-07-04 17:52:05.268 | DEBUG    | src.training.trainer:fit:69 - Epoch 1/300 | Train: 0.028532 | Val: 0.004070
+2026-07-04 17:52:05.283 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:52:31.756 | DEBUG    | src.training.trainer:fit:69 - Epoch 2/300 | Train: 0.003600 | Val: 0.001135
+2026-07-04 17:52:31.762 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:52:46.828 | DEBUG    | src.training.trainer:fit:69 - Epoch 3/300 | Train: 0.002166 | Val: 0.001477
+2026-07-04 17:53:09.537 | DEBUG    | src.training.trainer:fit:69 - Epoch 4/300 | Train: 0.001625 | Val: 0.001072
+2026-07-04 17:53:09.547 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:53:26.861 | DEBUG    | src.training.trainer:fit:69 - Epoch 5/300 | Train: 0.001674 | Val: 0.000730
+2026-07-04 17:53:26.869 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:53:52.271 | DEBUG    | src.training.trainer:fit:69 - Epoch 6/300 | Train: 0.001219 | Val: 0.000988
+2026-07-04 17:54:12.429 | DEBUG    | src.training.trainer:fit:69 - Epoch 7/300 | Train: 0.001079 | Val: 0.000687
+2026-07-04 17:54:12.435 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:54:29.870 | DEBUG    | src.training.trainer:fit:69 - Epoch 8/300 | Train: 0.000981 | Val: 0.000660
+2026-07-04 17:54:29.879 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:54:48.847 | DEBUG    | src.training.trainer:fit:69 - Epoch 9/300 | Train: 0.001129 | Val: 0.000651
+2026-07-04 17:54:48.853 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 17:55:07.026 | DEBUG    | src.training.trainer:fit:69 - Epoch 10/300 | Train: 0.000849 | Val: 0.000882
+2026-07-04 17:55:25.546 | DEBUG    | src.training.trainer:fit:69 - Epoch 11/300 | Train: 0.000912 | Val: 0.000868
+2026-07-04 17:55:50.905 | DEBUG    | src.training.trainer:fit:69 - Epoch 12/300 | Train: 0.000768 | Val: 0.001281
+2026-07-04 17:56:12.952 | DEBUG    | src.training.trainer:fit:69 - Epoch 13/300 | Train: 0.000716 | Val: 0.000689
+2026-07-04 17:56:36.698 | DEBUG    | src.training.trainer:fit:69 - Epoch 14/300 | Train: 0.000785 | Val: 0.000712
+2026-07-04 17:56:50.057 | DEBUG    | src.training.trainer:fit:69 - Epoch 15/300 | Train: 0.000677 | Val: 0.000667
+2026-07-04 17:57:11.654 | DEBUG    | src.training.trainer:fit:69 - Epoch 16/300 | Train: 0.000663 | Val: 0.000696
+2026-07-04 17:57:32.927 | DEBUG    | src.training.trainer:fit:69 - Epoch 17/300 | Train: 0.000720 | Val: 0.000663
+2026-07-04 17:57:48.212 | DEBUG    | src.training.trainer:fit:69 - Epoch 18/300 | Train: 0.000631 | Val: 0.000788
+2026-07-04 17:58:02.240 | DEBUG    | src.training.trainer:fit:69 - Epoch 19/300 | Train: 0.000619 | Val: 0.000987
+2026-07-04 17:58:28.280 | DEBUG    | src.training.trainer:fit:69 - Epoch 20/300 | Train: 0.000586 | Val: 0.000867
+2026-07-04 17:58:48.916 | DEBUG    | src.training.trainer:fit:69 - Epoch 21/300 | Train: 0.000566 | Val: 0.000704
+2026-07-04 17:59:12.494 | DEBUG    | src.training.trainer:fit:69 - Epoch 22/300 | Train: 0.000534 | Val: 0.000669
+2026-07-04 17:59:39.226 | DEBUG    | src.training.trainer:fit:69 - Epoch 23/300 | Train: 0.000553 | Val: 0.000704
+2026-07-04 18:00:06.073 | DEBUG    | src.training.trainer:fit:69 - Epoch 24/300 | Train: 0.000530 | Val: 0.000688
+2026-07-04 18:00:06.073 | INFO     | src.training.callbacks:on_epoch_end:26 - Early stopping triggered at epoch 24
+2026-07-04 18:00:06.906 | INFO     | src.backtest.simulator:run_backtest:54 - Correlation between predictions and future returns: nan
+2026-07-04 18:00:06.908 | INFO     | src.backtest.simulator:run_backtest:58 - Backtest results: Sharpe=0.14, Return=0.21%
+2026-07-04 18:07:09.273 | INFO     | src.data.loader:load_data:15 - Loading cached data from data\raw\SPY_2010-01-01_2026-06-01.parquet
+2026-07-04 18:07:09.348 | INFO     | src.data.pipeline:fit_transform:41 - Created 4016 sequences with 26 features each.
+2026-07-04 18:07:24.085 | DEBUG    | src.training.trainer:fit:69 - Epoch 1/300 | Train: 0.023606 | Val: 0.002469
+2026-07-04 18:07:24.093 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 18:07:47.492 | DEBUG    | src.training.trainer:fit:69 - Epoch 2/300 | Train: 0.003722 | Val: 0.000761
+2026-07-04 18:07:47.505 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 18:08:13.908 | DEBUG    | src.training.trainer:fit:69 - Epoch 3/300 | Train: 0.002128 | Val: 0.002127
+2026-07-04 18:08:40.586 | DEBUG    | src.training.trainer:fit:69 - Epoch 4/300 | Train: 0.001845 | Val: 0.000916
+2026-07-04 18:09:07.456 | DEBUG    | src.training.trainer:fit:69 - Epoch 5/300 | Train: 0.001377 | Val: 0.001625
+2026-07-04 18:09:34.104 | DEBUG    | src.training.trainer:fit:69 - Epoch 6/300 | Train: 0.001141 | Val: 0.000731
+2026-07-04 18:09:34.115 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 18:10:00.824 | DEBUG    | src.training.trainer:fit:69 - Epoch 7/300 | Train: 0.001104 | Val: 0.000690
+2026-07-04 18:10:00.836 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 18:10:27.073 | DEBUG    | src.training.trainer:fit:69 - Epoch 8/300 | Train: 0.001003 | Val: 0.000813
+2026-07-04 18:10:40.492 | DEBUG    | src.training.trainer:fit:69 - Epoch 9/300 | Train: 0.001000 | Val: 0.000928
+2026-07-04 18:10:53.300 | DEBUG    | src.training.trainer:fit:69 - Epoch 10/300 | Train: 0.000829 | Val: 0.000645
+2026-07-04 18:10:53.306 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 18:11:06.433 | DEBUG    | src.training.trainer:fit:69 - Epoch 11/300 | Train: 0.000838 | Val: 0.000822
+2026-07-04 18:11:19.298 | DEBUG    | src.training.trainer:fit:69 - Epoch 12/300 | Train: 0.000840 | Val: 0.000693
+2026-07-04 18:11:32.158 | DEBUG    | src.training.trainer:fit:69 - Epoch 13/300 | Train: 0.000797 | Val: 0.000843
+2026-07-04 18:11:45.286 | DEBUG    | src.training.trainer:fit:69 - Epoch 14/300 | Train: 0.000790 | Val: 0.000743
+2026-07-04 18:11:58.146 | DEBUG    | src.training.trainer:fit:69 - Epoch 15/300 | Train: 0.000724 | Val: 0.000677
+2026-07-04 18:12:11.151 | DEBUG    | src.training.trainer:fit:69 - Epoch 16/300 | Train: 0.000843 | Val: 0.000642
+2026-07-04 18:12:11.158 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 18:12:32.596 | DEBUG    | src.training.trainer:fit:69 - Epoch 17/300 | Train: 0.000676 | Val: 0.001029
+2026-07-04 18:12:59.481 | DEBUG    | src.training.trainer:fit:69 - Epoch 18/300 | Train: 0.000662 | Val: 0.000640
+2026-07-04 18:12:59.492 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 18:13:26.368 | DEBUG    | src.training.trainer:fit:69 - Epoch 19/300 | Train: 0.000641 | Val: 0.000640
+2026-07-04 18:13:45.217 | DEBUG    | src.training.trainer:fit:69 - Epoch 20/300 | Train: 0.000613 | Val: 0.000640
+2026-07-04 18:13:58.545 | DEBUG    | src.training.trainer:fit:69 - Epoch 21/300 | Train: 0.000656 | Val: 0.000714
+2026-07-04 18:14:18.024 | DEBUG    | src.training.trainer:fit:69 - Epoch 22/300 | Train: 0.000597 | Val: 0.000645
+2026-07-04 18:14:37.971 | DEBUG    | src.training.trainer:fit:69 - Epoch 23/300 | Train: 0.000586 | Val: 0.001064
+2026-07-04 18:14:56.738 | DEBUG    | src.training.trainer:fit:69 - Epoch 24/300 | Train: 0.000593 | Val: 0.000913
+2026-07-04 18:15:15.527 | DEBUG    | src.training.trainer:fit:69 - Epoch 25/300 | Train: 0.000563 | Val: 0.000835
+2026-07-04 18:15:33.941 | DEBUG    | src.training.trainer:fit:69 - Epoch 26/300 | Train: 0.000555 | Val: 0.000752
+2026-07-04 18:15:55.579 | DEBUG    | src.training.trainer:fit:69 - Epoch 27/300 | Train: 0.000568 | Val: 0.000668
+2026-07-04 18:16:20.016 | DEBUG    | src.training.trainer:fit:69 - Epoch 28/300 | Train: 0.000551 | Val: 0.000644
+2026-07-04 18:16:37.358 | DEBUG    | src.training.trainer:fit:69 - Epoch 29/300 | Train: 0.000505 | Val: 0.000697
+2026-07-04 18:16:54.628 | DEBUG    | src.training.trainer:fit:69 - Epoch 30/300 | Train: 0.000512 | Val: 0.000679
+2026-07-04 18:17:16.502 | DEBUG    | src.training.trainer:fit:69 - Epoch 31/300 | Train: 0.000518 | Val: 0.000648
+2026-07-04 18:17:34.852 | DEBUG    | src.training.trainer:fit:69 - Epoch 32/300 | Train: 0.000492 | Val: 0.000747
+2026-07-04 18:17:52.492 | DEBUG    | src.training.trainer:fit:69 - Epoch 33/300 | Train: 0.000508 | Val: 0.000694
+2026-07-04 18:17:52.492 | INFO     | src.training.callbacks:on_epoch_end:26 - Early stopping triggered at epoch 33
+2026-07-04 18:17:53.177 | INFO     | src.backtest.simulator:run_backtest:54 - Correlation between predictions and future returns: nan
+2026-07-04 18:17:53.179 | INFO     | src.backtest.simulator:run_backtest:58 - Backtest results: Sharpe=-1.95, Return=-3.08%
+2026-07-04 18:22:11.226 | INFO     | __main__:cli:25 - Using device: cpu
+2026-07-04 18:22:11.227 | INFO     | __main__:cli:28 - Loading data: SPY from 2010-01-01 to 2026-06-01
+2026-07-04 18:22:11.227 | INFO     | src.data.loader:load_data:15 - Loading cached data from data\raw\SPY_2010-01-01_2026-06-01.parquet
+2026-07-04 18:22:11.297 | INFO     | src.data.pipeline:fit_transform:41 - Created 4016 sequences with 26 features each.
+2026-07-04 18:22:11.305 | INFO     | __main__:cli:32 - Created sequences: X=(4016, 60, 26), y=(4016,)
+2026-07-04 18:22:11.305 | INFO     | __main__:cli:41 - Train: (2811, 60, 26), Val: (602, 60, 26), Test: (603, 60, 26)
+2026-07-04 18:22:11.320 | INFO     | __main__:cli:68 - Model parameters: 635,585
+2026-07-04 18:22:12.445 | INFO     | __main__:cli:81 - Starting training...
+2026-07-04 18:22:25.307 | DEBUG    | src.training.trainer:fit:69 - Epoch 1/300 | Train: 0.042424 | Val: 0.006500
+2026-07-04 18:22:25.315 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 18:22:38.180 | DEBUG    | src.training.trainer:fit:69 - Epoch 2/300 | Train: 0.004864 | Val: 0.000918
+2026-07-04 18:22:38.186 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 18:22:56.013 | DEBUG    | src.training.trainer:fit:69 - Epoch 3/300 | Train: 0.002471 | Val: 0.000711
+2026-07-04 18:22:56.024 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 18:23:17.704 | DEBUG    | src.training.trainer:fit:69 - Epoch 4/300 | Train: 0.002005 | Val: 0.000811
+2026-07-04 18:23:38.333 | DEBUG    | src.training.trainer:fit:69 - Epoch 5/300 | Train: 0.001432 | Val: 0.000945
+2026-07-04 18:23:59.568 | DEBUG    | src.training.trainer:fit:69 - Epoch 6/300 | Train: 0.001194 | Val: 0.001318
+2026-07-04 18:24:25.931 | DEBUG    | src.training.trainer:fit:69 - Epoch 7/300 | Train: 0.001192 | Val: 0.001411
+2026-07-04 18:24:38.590 | DEBUG    | src.training.trainer:fit:69 - Epoch 8/300 | Train: 0.001017 | Val: 0.000681
+2026-07-04 18:24:38.596 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 18:25:04.853 | DEBUG    | src.training.trainer:fit:69 - Epoch 9/300 | Train: 0.000963 | Val: 0.000922
+2026-07-04 18:25:30.429 | DEBUG    | src.training.trainer:fit:69 - Epoch 10/300 | Train: 0.001026 | Val: 0.000736
+2026-07-04 18:25:50.930 | DEBUG    | src.training.trainer:fit:69 - Epoch 11/300 | Train: 0.000867 | Val: 0.000673
+2026-07-04 18:25:50.938 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 18:26:16.295 | DEBUG    | src.training.trainer:fit:69 - Epoch 12/300 | Train: 0.000739 | Val: 0.002192
+2026-07-04 18:26:35.162 | DEBUG    | src.training.trainer:fit:69 - Epoch 13/300 | Train: 0.000731 | Val: 0.000786
+2026-07-04 18:26:55.522 | DEBUG    | src.training.trainer:fit:69 - Epoch 14/300 | Train: 0.000771 | Val: 0.000683
+2026-07-04 18:27:20.760 | DEBUG    | src.training.trainer:fit:69 - Epoch 15/300 | Train: 0.000749 | Val: 0.000679
+2026-07-04 18:27:39.298 | DEBUG    | src.training.trainer:fit:69 - Epoch 16/300 | Train: 0.000656 | Val: 0.000834
+2026-07-04 18:27:59.595 | DEBUG    | src.training.trainer:fit:69 - Epoch 17/300 | Train: 0.000628 | Val: 0.001076
+2026-07-04 18:28:25.436 | DEBUG    | src.training.trainer:fit:69 - Epoch 18/300 | Train: 0.000608 | Val: 0.000699
+2026-07-04 18:28:48.641 | DEBUG    | src.training.trainer:fit:69 - Epoch 19/300 | Train: 0.000587 | Val: 0.000667
+2026-07-04 18:28:48.653 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 18:29:10.982 | DEBUG    | src.training.trainer:fit:69 - Epoch 20/300 | Train: 0.000668 | Val: 0.000893
+2026-07-04 18:29:30.635 | DEBUG    | src.training.trainer:fit:69 - Epoch 21/300 | Train: 0.000569 | Val: 0.000790
+2026-07-04 18:29:48.912 | DEBUG    | src.training.trainer:fit:69 - Epoch 22/300 | Train: 0.000567 | Val: 0.000848
+2026-07-04 18:30:08.805 | DEBUG    | src.training.trainer:fit:69 - Epoch 23/300 | Train: 0.000560 | Val: 0.000736
+2026-07-04 18:30:29.390 | DEBUG    | src.training.trainer:fit:69 - Epoch 24/300 | Train: 0.000521 | Val: 0.000690
+2026-07-04 18:30:52.502 | DEBUG    | src.training.trainer:fit:69 - Epoch 25/300 | Train: 0.000548 | Val: 0.000693
+2026-07-04 18:31:18.546 | DEBUG    | src.training.trainer:fit:69 - Epoch 26/300 | Train: 0.000514 | Val: 0.000673
+2026-07-04 18:31:41.801 | DEBUG    | src.training.trainer:fit:69 - Epoch 27/300 | Train: 0.000539 | Val: 0.000697
+2026-07-04 18:32:08.327 | DEBUG    | src.training.trainer:fit:69 - Epoch 28/300 | Train: 0.000507 | Val: 0.000800
+2026-07-04 18:32:26.018 | DEBUG    | src.training.trainer:fit:69 - Epoch 29/300 | Train: 0.000499 | Val: 0.000801
+2026-07-04 18:32:38.582 | DEBUG    | src.training.trainer:fit:69 - Epoch 30/300 | Train: 0.000488 | Val: 0.000859
+2026-07-04 18:32:51.006 | DEBUG    | src.training.trainer:fit:69 - Epoch 31/300 | Train: 0.000458 | Val: 0.000799
+2026-07-04 18:33:04.015 | DEBUG    | src.training.trainer:fit:69 - Epoch 32/300 | Train: 0.000457 | Val: 0.000771
+2026-07-04 18:33:20.783 | DEBUG    | src.training.trainer:fit:69 - Epoch 33/300 | Train: 0.000459 | Val: 0.001105
+2026-07-04 18:33:41.754 | DEBUG    | src.training.trainer:fit:69 - Epoch 34/300 | Train: 0.000451 | Val: 0.000789
+2026-07-04 18:33:41.754 | INFO     | src.training.callbacks:on_epoch_end:26 - Early stopping triggered at epoch 34
+2026-07-04 18:33:42.612 | INFO     | __main__:cli:84 - Training complete. Best validation loss: 0.000667
+2026-07-04 18:33:43.195 | INFO     | __main__:cli:107 - Predictions: min=-0.009326, mean=0.004994, max=0.025503, std=0.008174
+2026-07-04 18:33:43.196 | INFO     | __main__:cli:108 - Actuals:     min=nan, mean=nan, max=nan, std=nan
+2026-07-04 18:33:43.196 | INFO     | __main__:cli:109 - Positive predictions: 66.2%, Negative: 33.8%
+2026-07-04 18:33:43.630 | INFO     | __main__:cli:115 - Running backtest...
+2026-07-04 18:33:43.630 | INFO     | src.backtest.simulator:run_backtest:15 - Correlation (full): nan
+2026-07-04 18:33:43.635 | INFO     | src.backtest.simulator:run_backtest:69 - Backtest results: Sharpe=-0.39, Return=-0.61%
+2026-07-04 18:33:44.071 | INFO     | __main__:cli:121 - Pipeline complete.
+2026-07-04 18:37:01.453 | INFO     | __main__:cli:25 - Using device: cpu
+2026-07-04 18:37:01.453 | INFO     | __main__:cli:28 - Loading data: SPY from 2010-01-01 to 2026-06-01
+2026-07-04 18:37:01.454 | INFO     | src.data.loader:load_data:18 - Downloading SPY from yfinance (2010-01-01 to 2026-06-01)
+2026-07-04 18:48:37.220 | INFO     | __main__:cli:25 - Using device: cpu
+2026-07-04 18:48:37.221 | INFO     | __main__:cli:28 - Loading data: SPY from 2010-01-01 to 2026-06-01
+2026-07-04 18:48:37.221 | INFO     | src.data.loader:load_data:16 - Loading cached data from data\raw\SPY_2010-01-01_2026-06-01.parquet
+2026-07-04 18:48:37.254 | WARNING  | src.data.loader:load_data:21 - Cached file is empty, re-downloading...
+2026-07-04 18:48:37.255 | INFO     | src.data.loader:load_data:28 - Downloading SPY from yfinance (2010-01-01 to 2026-06-01) - attempt 1
+2026-07-04 18:48:40.263 | INFO     | src.data.loader:load_data:45 - Download successful. Shape: (4126, 5)
+2026-07-04 18:50:15.218 | INFO     | __main__:cli:25 - Using device: cpu
+2026-07-04 18:50:15.219 | INFO     | __main__:cli:28 - Loading data: SPY from 2010-01-01 to 2026-06-01
+2026-07-04 18:50:15.219 | INFO     | src.data.loader:load_data:16 - Loading cached data from data\raw\SPY_2010-01-01_2026-06-01.parquet
+2026-07-04 18:51:58.645 | INFO     | __main__:cli:25 - Using device: cpu
+2026-07-04 18:51:58.646 | INFO     | __main__:cli:28 - Loading data: SPY from 2010-01-01 to 2026-06-01
+2026-07-04 18:51:58.646 | INFO     | src.data.loader:load_data:30 - Downloading SPY from yfinance (2010-01-01 to 2026-06-01) - attempt 1
+2026-07-04 18:52:00.804 | INFO     | src.data.loader:load_data:46 - Download successful. Shape: (4126, 5)
+2026-07-04 18:52:00.857 | INFO     | src.data.pipeline:fit_transform:45 - Created 4011 sequences with 26 features each.
+2026-07-04 18:52:00.858 | INFO     | __main__:cli:32 - Created sequences: X=(4011, 60, 26), y=(4011,)
+2026-07-04 18:52:00.858 | INFO     | __main__:cli:41 - Train: (2807, 60, 26), Val: (602, 60, 26), Test: (602, 60, 26)
+2026-07-04 18:52:00.871 | INFO     | __main__:cli:68 - Model parameters: 635,585
+2026-07-04 18:52:01.917 | INFO     | __main__:cli:81 - Starting training...
+2026-07-04 18:52:20.181 | DEBUG    | src.training.trainer:fit:69 - Epoch 1/300 | Train: 0.045772 | Val: 0.001806
+2026-07-04 18:52:20.196 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 18:52:46.281 | DEBUG    | src.training.trainer:fit:69 - Epoch 2/300 | Train: 0.005173 | Val: 0.000764
+2026-07-04 18:52:46.292 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 18:53:11.998 | DEBUG    | src.training.trainer:fit:69 - Epoch 3/300 | Train: 0.002820 | Val: 0.000959
+2026-07-04 18:53:37.318 | DEBUG    | src.training.trainer:fit:69 - Epoch 4/300 | Train: 0.001988 | Val: 0.001302
+2026-07-04 18:54:02.728 | DEBUG    | src.training.trainer:fit:69 - Epoch 5/300 | Train: 0.001746 | Val: 0.000706
+2026-07-04 18:54:02.740 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 18:54:28.178 | DEBUG    | src.training.trainer:fit:69 - Epoch 6/300 | Train: 0.001503 | Val: 0.001098
+2026-07-04 18:54:53.679 | DEBUG    | src.training.trainer:fit:69 - Epoch 7/300 | Train: 0.001322 | Val: 0.000667
+2026-07-04 18:54:53.690 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 18:55:19.354 | DEBUG    | src.training.trainer:fit:69 - Epoch 8/300 | Train: 0.001357 | Val: 0.001229
+2026-07-04 18:55:44.624 | DEBUG    | src.training.trainer:fit:69 - Epoch 9/300 | Train: 0.001048 | Val: 0.000660
+2026-07-04 18:55:44.635 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 18:56:07.874 | DEBUG    | src.training.trainer:fit:69 - Epoch 10/300 | Train: 0.001016 | Val: 0.000796
+2026-07-04 18:56:31.670 | DEBUG    | src.training.trainer:fit:69 - Epoch 11/300 | Train: 0.000930 | Val: 0.000837
+2026-07-04 18:56:56.485 | DEBUG    | src.training.trainer:fit:69 - Epoch 12/300 | Train: 0.001031 | Val: 0.000994
+2026-07-04 18:57:22.024 | DEBUG    | src.training.trainer:fit:69 - Epoch 13/300 | Train: 0.000831 | Val: 0.000688
+2026-07-04 18:57:47.256 | DEBUG    | src.training.trainer:fit:69 - Epoch 14/300 | Train: 0.000866 | Val: 0.000716
+2026-07-04 18:58:10.065 | DEBUG    | src.training.trainer:fit:69 - Epoch 15/300 | Train: 0.000745 | Val: 0.000664
+2026-07-04 18:58:35.270 | DEBUG    | src.training.trainer:fit:69 - Epoch 16/300 | Train: 0.000703 | Val: 0.000655
+2026-07-04 18:58:35.282 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 18:58:56.421 | DEBUG    | src.training.trainer:fit:69 - Epoch 17/300 | Train: 0.000668 | Val: 0.001134
+2026-07-04 18:59:21.673 | DEBUG    | src.training.trainer:fit:69 - Epoch 18/300 | Train: 0.000679 | Val: 0.000846
+2026-07-04 18:59:42.955 | DEBUG    | src.training.trainer:fit:69 - Epoch 19/300 | Train: 0.000680 | Val: 0.000644
+2026-07-04 18:59:42.967 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 18:59:58.856 | DEBUG    | src.training.trainer:fit:69 - Epoch 20/300 | Train: 0.000606 | Val: 0.000685
+2026-07-04 19:00:12.923 | DEBUG    | src.training.trainer:fit:69 - Epoch 21/300 | Train: 0.000612 | Val: 0.000652
+2026-07-04 19:00:34.639 | DEBUG    | src.training.trainer:fit:69 - Epoch 22/300 | Train: 0.000631 | Val: 0.000676
+2026-07-04 19:00:48.765 | DEBUG    | src.training.trainer:fit:69 - Epoch 23/300 | Train: 0.000564 | Val: 0.000656
+2026-07-04 19:01:02.242 | DEBUG    | src.training.trainer:fit:69 - Epoch 24/300 | Train: 0.000558 | Val: 0.000651
+2026-07-04 19:01:22.833 | DEBUG    | src.training.trainer:fit:69 - Epoch 25/300 | Train: 0.000599 | Val: 0.000643
+2026-07-04 19:01:22.839 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 19:01:44.448 | DEBUG    | src.training.trainer:fit:69 - Epoch 26/300 | Train: 0.000562 | Val: 0.000646
+2026-07-04 19:02:06.270 | DEBUG    | src.training.trainer:fit:69 - Epoch 27/300 | Train: 0.000531 | Val: 0.000662
+2026-07-04 19:02:21.254 | DEBUG    | src.training.trainer:fit:69 - Epoch 28/300 | Train: 0.000525 | Val: 0.000641
+2026-07-04 19:02:21.260 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 19:02:34.909 | DEBUG    | src.training.trainer:fit:69 - Epoch 29/300 | Train: 0.000529 | Val: 0.000679
+2026-07-04 19:02:48.469 | DEBUG    | src.training.trainer:fit:69 - Epoch 30/300 | Train: 0.000504 | Val: 0.000649
+2026-07-04 19:03:05.903 | DEBUG    | src.training.trainer:fit:69 - Epoch 31/300 | Train: 0.000500 | Val: 0.000717
+2026-07-04 19:03:31.492 | DEBUG    | src.training.trainer:fit:69 - Epoch 32/300 | Train: 0.000488 | Val: 0.000647
+2026-07-04 19:03:57.611 | DEBUG    | src.training.trainer:fit:69 - Epoch 33/300 | Train: 0.000495 | Val: 0.000700
+2026-07-04 19:04:23.356 | DEBUG    | src.training.trainer:fit:69 - Epoch 34/300 | Train: 0.000492 | Val: 0.000843
+2026-07-04 19:04:49.037 | DEBUG    | src.training.trainer:fit:69 - Epoch 35/300 | Train: 0.000484 | Val: 0.000737
+2026-07-04 19:05:10.153 | DEBUG    | src.training.trainer:fit:69 - Epoch 36/300 | Train: 0.000483 | Val: 0.000655
+2026-07-04 19:05:33.786 | DEBUG    | src.training.trainer:fit:69 - Epoch 37/300 | Train: 0.000473 | Val: 0.000708
+2026-07-04 19:05:51.417 | DEBUG    | src.training.trainer:fit:69 - Epoch 38/300 | Train: 0.000465 | Val: 0.000709
+2026-07-04 19:06:13.483 | DEBUG    | src.training.trainer:fit:69 - Epoch 39/300 | Train: 0.000478 | Val: 0.000682
+2026-07-04 19:06:33.087 | DEBUG    | src.training.trainer:fit:69 - Epoch 40/300 | Train: 0.000454 | Val: 0.000698
+2026-07-04 19:06:58.430 | DEBUG    | src.training.trainer:fit:69 - Epoch 41/300 | Train: 0.000446 | Val: 0.000735
+2026-07-04 19:07:18.783 | DEBUG    | src.training.trainer:fit:69 - Epoch 42/300 | Train: 0.000435 | Val: 0.000728
+2026-07-04 19:07:39.611 | DEBUG    | src.training.trainer:fit:69 - Epoch 43/300 | Train: 0.000430 | Val: 0.001022
+2026-07-04 19:07:39.611 | INFO     | src.training.callbacks:on_epoch_end:26 - Early stopping triggered at epoch 43
+2026-07-04 19:07:39.946 | INFO     | __main__:cli:84 - Training complete. Best validation loss: 0.000641
+2026-07-04 19:07:40.245 | INFO     | __main__:cli:107 - Predictions: min=-0.002549, mean=0.004520, max=0.025508, std=0.006180
+2026-07-04 19:07:40.245 | INFO     | __main__:cli:108 - Actuals:     min=-0.114962, mean=0.004267, max=0.082843, std=0.020194
+2026-07-04 19:07:40.245 | INFO     | __main__:cli:109 - Positive predictions: 77.6%, Negative: 22.4%
+2026-07-04 19:07:40.426 | INFO     | __main__:cli:115 - Running backtest...
+2026-07-04 19:07:40.426 | INFO     | src.backtest.simulator:run_backtest:15 - Correlation (full): 0.1342
+2026-07-04 19:07:40.429 | INFO     | src.backtest.simulator:run_backtest:69 - Backtest results: Sharpe=0.23, Return=0.37%
+2026-07-04 19:07:40.603 | INFO     | __main__:cli:121 - Pipeline complete.
+2026-07-04 19:10:15.574 | INFO     | __main__:cli:25 - Using device: cpu
+2026-07-04 19:10:15.575 | INFO     | __main__:cli:28 - Loading data: SPY from 2010-01-01 to 2026-06-01
+2026-07-04 19:10:15.575 | INFO     | src.data.loader:load_data:16 - Loading cached data from data\raw\SPY_2010-01-01_2026-06-01.parquet
+2026-07-04 19:10:15.663 | INFO     | src.data.pipeline:fit_transform:45 - Created 4011 sequences with 26 features each.
+2026-07-04 19:10:15.664 | INFO     | __main__:cli:32 - Created sequences: X=(4011, 60, 26), y=(4011,)
+2026-07-04 19:10:15.664 | INFO     | __main__:cli:41 - Train: (2807, 60, 26), Val: (602, 60, 26), Test: (602, 60, 26)
+2026-07-04 19:10:15.680 | INFO     | __main__:cli:68 - Model parameters: 635,585
+2026-07-04 19:10:16.775 | INFO     | __main__:cli:81 - Starting training...
+2026-07-04 19:10:40.228 | DEBUG    | src.training.trainer:fit:69 - Epoch 1/300 | Train: 0.031921 | Val: 0.003269
+2026-07-04 19:10:40.242 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 19:10:58.372 | DEBUG    | src.training.trainer:fit:69 - Epoch 2/300 | Train: 0.003642 | Val: 0.000768
+2026-07-04 19:10:58.382 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 19:11:22.319 | DEBUG    | src.training.trainer:fit:69 - Epoch 3/300 | Train: 0.002084 | Val: 0.000733
+2026-07-04 19:11:22.330 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 19:11:47.615 | DEBUG    | src.training.trainer:fit:69 - Epoch 4/300 | Train: 0.001517 | Val: 0.000679
+2026-07-04 19:11:47.626 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 19:12:12.883 | DEBUG    | src.training.trainer:fit:69 - Epoch 5/300 | Train: 0.001379 | Val: 0.000719
+2026-07-04 19:12:38.235 | DEBUG    | src.training.trainer:fit:69 - Epoch 6/300 | Train: 0.001258 | Val: 0.000663
+2026-07-04 19:12:38.246 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 19:13:03.395 | DEBUG    | src.training.trainer:fit:69 - Epoch 7/300 | Train: 0.001203 | Val: 0.000866
+2026-07-04 19:13:28.376 | DEBUG    | src.training.trainer:fit:69 - Epoch 8/300 | Train: 0.001113 | Val: 0.000667
+2026-07-04 19:13:53.299 | DEBUG    | src.training.trainer:fit:69 - Epoch 9/300 | Train: 0.000930 | Val: 0.000661
+2026-07-04 19:13:53.309 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 19:14:18.278 | DEBUG    | src.training.trainer:fit:69 - Epoch 10/300 | Train: 0.001030 | Val: 0.000819
+2026-07-04 19:14:43.478 | DEBUG    | src.training.trainer:fit:69 - Epoch 11/300 | Train: 0.000880 | Val: 0.000645
+2026-07-04 19:14:43.489 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 19:15:08.794 | DEBUG    | src.training.trainer:fit:69 - Epoch 12/300 | Train: 0.000755 | Val: 0.000672
+2026-07-04 19:15:33.966 | DEBUG    | src.training.trainer:fit:69 - Epoch 13/300 | Train: 0.000765 | Val: 0.000658
+2026-07-04 19:15:58.664 | DEBUG    | src.training.trainer:fit:69 - Epoch 14/300 | Train: 0.000710 | Val: 0.000732
+2026-07-04 19:16:23.570 | DEBUG    | src.training.trainer:fit:69 - Epoch 15/300 | Train: 0.000703 | Val: 0.000895
+2026-07-04 19:16:48.718 | DEBUG    | src.training.trainer:fit:69 - Epoch 16/300 | Train: 0.000708 | Val: 0.000700
+2026-07-04 19:17:13.806 | DEBUG    | src.training.trainer:fit:69 - Epoch 17/300 | Train: 0.000645 | Val: 0.000865
+2026-07-04 19:17:27.585 | DEBUG    | src.training.trainer:fit:69 - Epoch 18/300 | Train: 0.000639 | Val: 0.001102
+2026-07-04 19:17:49.265 | DEBUG    | src.training.trainer:fit:69 - Epoch 19/300 | Train: 0.000607 | Val: 0.000671
+2026-07-04 19:18:14.656 | DEBUG    | src.training.trainer:fit:69 - Epoch 20/300 | Train: 0.000575 | Val: 0.000693
+2026-07-04 19:18:39.835 | DEBUG    | src.training.trainer:fit:69 - Epoch 21/300 | Train: 0.000563 | Val: 0.000640
+2026-07-04 19:18:39.846 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 19:19:05.296 | DEBUG    | src.training.trainer:fit:69 - Epoch 22/300 | Train: 0.000580 | Val: 0.000766
+2026-07-04 19:19:30.589 | DEBUG    | src.training.trainer:fit:69 - Epoch 23/300 | Train: 0.000544 | Val: 0.000726
+2026-07-04 19:19:54.950 | DEBUG    | src.training.trainer:fit:69 - Epoch 24/300 | Train: 0.000560 | Val: 0.000635
+2026-07-04 19:19:54.956 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 19:20:07.280 | DEBUG    | src.training.trainer:fit:69 - Epoch 25/300 | Train: 0.000521 | Val: 0.000636
+2026-07-04 19:20:19.333 | DEBUG    | src.training.trainer:fit:69 - Epoch 26/300 | Train: 0.000520 | Val: 0.000721
+2026-07-04 19:20:44.189 | DEBUG    | src.training.trainer:fit:69 - Epoch 27/300 | Train: 0.000533 | Val: 0.000804
+2026-07-04 19:21:09.495 | DEBUG    | src.training.trainer:fit:69 - Epoch 28/300 | Train: 0.000518 | Val: 0.000720
+2026-07-04 19:21:34.763 | DEBUG    | src.training.trainer:fit:69 - Epoch 29/300 | Train: 0.000507 | Val: 0.000713
+2026-07-04 19:22:00.023 | DEBUG    | src.training.trainer:fit:69 - Epoch 30/300 | Train: 0.000516 | Val: 0.000893
+2026-07-04 19:22:25.449 | DEBUG    | src.training.trainer:fit:69 - Epoch 31/300 | Train: 0.000508 | Val: 0.000741
+2026-07-04 19:22:50.663 | DEBUG    | src.training.trainer:fit:69 - Epoch 32/300 | Train: 0.000489 | Val: 0.000702
+2026-07-04 19:23:06.503 | DEBUG    | src.training.trainer:fit:69 - Epoch 33/300 | Train: 0.000478 | Val: 0.000756
+2026-07-04 19:23:18.519 | DEBUG    | src.training.trainer:fit:69 - Epoch 34/300 | Train: 0.000479 | Val: 0.000724
+2026-07-04 19:23:31.042 | DEBUG    | src.training.trainer:fit:69 - Epoch 35/300 | Train: 0.000476 | Val: 0.000958
+2026-07-04 19:23:43.228 | DEBUG    | src.training.trainer:fit:69 - Epoch 36/300 | Train: 0.000466 | Val: 0.000749
+2026-07-04 19:23:55.421 | DEBUG    | src.training.trainer:fit:69 - Epoch 37/300 | Train: 0.000456 | Val: 0.000826
+2026-07-04 19:24:07.530 | DEBUG    | src.training.trainer:fit:69 - Epoch 38/300 | Train: 0.000454 | Val: 0.000760
+2026-07-04 19:24:19.678 | DEBUG    | src.training.trainer:fit:69 - Epoch 39/300 | Train: 0.000452 | Val: 0.000736
+2026-07-04 19:24:19.679 | INFO     | src.training.callbacks:on_epoch_end:26 - Early stopping triggered at epoch 39
+2026-07-04 19:24:20.457 | INFO     | __main__:cli:84 - Training complete. Best validation loss: 0.000635
+2026-07-04 19:24:20.992 | INFO     | __main__:cli:107 - Predictions: min=-0.005171, mean=0.003692, max=0.015090, std=0.004812
+2026-07-04 19:24:20.993 | INFO     | __main__:cli:108 - Actuals:     min=-0.114962, mean=0.004267, max=0.082843, std=0.020194
+2026-07-04 19:24:20.994 | INFO     | __main__:cli:109 - Positive predictions: 73.9%, Negative: 26.1%
+2026-07-04 19:24:21.367 | INFO     | __main__:cli:115 - Running backtest...
+2026-07-04 19:24:21.368 | INFO     | src.backtest.simulator:run_backtest:15 - Correlation (full): 0.1034
+2026-07-04 19:24:21.371 | INFO     | src.backtest.simulator:run_backtest:69 - Backtest results: Sharpe=-0.12, Return=-0.20%
+2026-07-04 19:24:21.767 | INFO     | __main__:cli:121 - Pipeline complete.
+2026-07-04 19:25:29.740 | INFO     | __main__:cli:25 - Using device: cpu
+2026-07-04 19:25:29.740 | INFO     | __main__:cli:28 - Loading data: SPY from 2010-01-01 to 2026-06-01
+2026-07-04 19:25:29.741 | INFO     | src.data.loader:load_data:16 - Loading cached data from data\raw\SPY_2010-01-01_2026-06-01.parquet
+2026-07-04 19:25:29.827 | INFO     | src.data.pipeline:fit_transform:45 - Created 4011 sequences with 26 features each.
+2026-07-04 19:25:29.827 | INFO     | __main__:cli:32 - Created sequences: X=(4011, 60, 26), y=(4011,)
+2026-07-04 19:25:29.827 | INFO     | __main__:cli:41 - Train: (2807, 60, 26), Val: (602, 60, 26), Test: (602, 60, 26)
+2026-07-04 19:25:29.838 | INFO     | __main__:cli:68 - Model parameters: 635,585
+2026-07-04 19:25:30.879 | INFO     | __main__:cli:81 - Starting training...
+2026-07-04 19:25:46.046 | DEBUG    | src.training.trainer:fit:69 - Epoch 1/300 | Train: 0.030429 | Val: 0.001671
+2026-07-04 19:25:46.060 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 19:26:11.425 | DEBUG    | src.training.trainer:fit:69 - Epoch 2/300 | Train: 0.004251 | Val: 0.001024
+2026-07-04 19:26:11.436 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 19:26:36.871 | DEBUG    | src.training.trainer:fit:69 - Epoch 3/300 | Train: 0.002378 | Val: 0.000753
+2026-07-04 19:26:36.881 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 19:27:02.008 | DEBUG    | src.training.trainer:fit:69 - Epoch 4/300 | Train: 0.001917 | Val: 0.001505
+2026-07-04 19:27:27.268 | DEBUG    | src.training.trainer:fit:69 - Epoch 5/300 | Train: 0.001533 | Val: 0.001823
+2026-07-04 19:27:52.520 | DEBUG    | src.training.trainer:fit:69 - Epoch 6/300 | Train: 0.001201 | Val: 0.001909
+2026-07-04 19:28:11.813 | DEBUG    | src.training.trainer:fit:69 - Epoch 7/300 | Train: 0.001119 | Val: 0.000744
+2026-07-04 19:28:11.819 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 19:28:31.077 | DEBUG    | src.training.trainer:fit:69 - Epoch 8/300 | Train: 0.001079 | Val: 0.000676
+2026-07-04 19:28:31.088 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 19:28:56.071 | DEBUG    | src.training.trainer:fit:69 - Epoch 9/300 | Train: 0.000916 | Val: 0.001453
+2026-07-04 19:29:21.093 | DEBUG    | src.training.trainer:fit:69 - Epoch 10/300 | Train: 0.000829 | Val: 0.000672
+2026-07-04 19:29:21.104 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 19:29:46.366 | DEBUG    | src.training.trainer:fit:69 - Epoch 11/300 | Train: 0.000764 | Val: 0.000648
+2026-07-04 19:29:46.377 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 19:30:11.646 | DEBUG    | src.training.trainer:fit:69 - Epoch 12/300 | Train: 0.000801 | Val: 0.000754
+2026-07-04 19:30:36.453 | DEBUG    | src.training.trainer:fit:69 - Epoch 13/300 | Train: 0.000856 | Val: 0.001046
+2026-07-04 19:31:01.401 | DEBUG    | src.training.trainer:fit:69 - Epoch 14/300 | Train: 0.000674 | Val: 0.000668
+2026-07-04 19:31:26.390 | DEBUG    | src.training.trainer:fit:69 - Epoch 15/300 | Train: 0.000668 | Val: 0.000702
+2026-07-04 19:31:51.465 | DEBUG    | src.training.trainer:fit:69 - Epoch 16/300 | Train: 0.000658 | Val: 0.000770
+2026-07-04 19:32:06.325 | DEBUG    | src.training.trainer:fit:69 - Epoch 17/300 | Train: 0.000617 | Val: 0.000711
+2026-07-04 19:32:25.166 | DEBUG    | src.training.trainer:fit:69 - Epoch 18/300 | Train: 0.000624 | Val: 0.000823
+2026-07-04 19:32:38.922 | DEBUG    | src.training.trainer:fit:69 - Epoch 19/300 | Train: 0.000623 | Val: 0.000903
+2026-07-04 19:33:03.991 | DEBUG    | src.training.trainer:fit:69 - Epoch 20/300 | Train: 0.000567 | Val: 0.000660
+2026-07-04 19:33:29.119 | DEBUG    | src.training.trainer:fit:69 - Epoch 21/300 | Train: 0.000589 | Val: 0.000757
+2026-07-04 19:33:53.980 | DEBUG    | src.training.trainer:fit:69 - Epoch 22/300 | Train: 0.000563 | Val: 0.000664
+2026-07-04 19:34:19.155 | DEBUG    | src.training.trainer:fit:69 - Epoch 23/300 | Train: 0.000522 | Val: 0.000642
+2026-07-04 19:34:19.166 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 19:34:43.514 | DEBUG    | src.training.trainer:fit:69 - Epoch 24/300 | Train: 0.000518 | Val: 0.000638
+2026-07-04 19:34:43.522 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 19:34:55.854 | DEBUG    | src.training.trainer:fit:69 - Epoch 25/300 | Train: 0.000529 | Val: 0.000638
+2026-07-04 19:35:11.974 | DEBUG    | src.training.trainer:fit:69 - Epoch 26/300 | Train: 0.000507 | Val: 0.000720
+2026-07-04 19:35:37.157 | DEBUG    | src.training.trainer:fit:69 - Epoch 27/300 | Train: 0.000513 | Val: 0.000744
+2026-07-04 19:36:02.496 | DEBUG    | src.training.trainer:fit:69 - Epoch 28/300 | Train: 0.000520 | Val: 0.000661
+2026-07-04 19:36:21.924 | DEBUG    | src.training.trainer:fit:69 - Epoch 29/300 | Train: 0.000510 | Val: 0.000665
+2026-07-04 19:36:33.735 | DEBUG    | src.training.trainer:fit:69 - Epoch 30/300 | Train: 0.000502 | Val: 0.000650
+2026-07-04 19:36:45.804 | DEBUG    | src.training.trainer:fit:69 - Epoch 31/300 | Train: 0.000500 | Val: 0.000719
+2026-07-04 19:36:57.634 | DEBUG    | src.training.trainer:fit:69 - Epoch 32/300 | Train: 0.000499 | Val: 0.000642
+2026-07-04 19:37:09.787 | DEBUG    | src.training.trainer:fit:69 - Epoch 33/300 | Train: 0.000484 | Val: 0.000739
+2026-07-04 19:37:21.846 | DEBUG    | src.training.trainer:fit:69 - Epoch 34/300 | Train: 0.000486 | Val: 0.000690
+2026-07-04 19:37:33.831 | DEBUG    | src.training.trainer:fit:69 - Epoch 35/300 | Train: 0.000485 | Val: 0.000686
+2026-07-04 19:37:45.737 | DEBUG    | src.training.trainer:fit:69 - Epoch 36/300 | Train: 0.000474 | Val: 0.000679
+2026-07-04 19:37:57.771 | DEBUG    | src.training.trainer:fit:69 - Epoch 37/300 | Train: 0.000466 | Val: 0.000744
+2026-07-04 19:38:10.348 | DEBUG    | src.training.trainer:fit:69 - Epoch 38/300 | Train: 0.000461 | Val: 0.000704
+2026-07-04 19:38:22.529 | DEBUG    | src.training.trainer:fit:69 - Epoch 39/300 | Train: 0.000467 | Val: 0.000695
+2026-07-04 19:38:22.529 | INFO     | src.training.callbacks:on_epoch_end:26 - Early stopping triggered at epoch 39
+2026-07-04 19:38:22.849 | INFO     | __main__:cli:84 - Training complete. Best validation loss: 0.000638
+2026-07-04 19:38:23.157 | INFO     | __main__:cli:107 - Predictions: min=-0.003969, mean=0.002909, max=0.012980, std=0.004925
+2026-07-04 19:38:23.158 | INFO     | __main__:cli:108 - Actuals:     min=-0.114962, mean=0.004267, max=0.082843, std=0.020194
+2026-07-04 19:38:23.158 | INFO     | __main__:cli:109 - Positive predictions: 64.6%, Negative: 35.4%
+2026-07-04 19:38:23.349 | INFO     | __main__:cli:115 - Running backtest...
+2026-07-04 19:38:23.349 | INFO     | src.backtest.simulator:run_backtest:15 - Correlation (full): 0.1088
+2026-07-04 19:38:23.352 | INFO     | src.backtest.simulator:run_backtest:69 - Backtest results: Sharpe=-1.33, Return=-2.20%
+2026-07-04 19:38:23.522 | INFO     | __main__:cli:121 - Pipeline complete.
+2026-07-04 19:41:59.530 | INFO     | __main__:cli:25 - Using device: cpu
+2026-07-04 19:41:59.531 | INFO     | __main__:cli:28 - Loading data: SPY from 2010-01-01 to 2026-06-01
+2026-07-04 19:41:59.531 | INFO     | src.data.loader:load_data:16 - Loading cached data from data\raw\SPY_2010-01-01_2026-06-01.parquet
+2026-07-04 19:41:59.616 | INFO     | src.data.pipeline:fit_transform:45 - Created 4011 sequences with 26 features each.
+2026-07-04 19:41:59.617 | INFO     | __main__:cli:32 - Created sequences: X=(4011, 60, 26), y=(4011,)
+2026-07-04 19:41:59.617 | INFO     | __main__:cli:41 - Train: (2807, 60, 26), Val: (602, 60, 26), Test: (602, 60, 26)
+2026-07-04 19:41:59.629 | INFO     | __main__:cli:68 - Model parameters: 635,585
+2026-07-04 19:42:00.746 | INFO     | __main__:cli:81 - Starting training...
+2026-07-04 19:42:21.157 | DEBUG    | src.training.trainer:fit:69 - Epoch 1/300 | Train: 0.026329 | Val: 0.001889
+2026-07-04 19:42:21.171 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 19:42:46.333 | DEBUG    | src.training.trainer:fit:69 - Epoch 2/300 | Train: 0.003737 | Val: 0.004754
+2026-07-04 19:43:11.677 | DEBUG    | src.training.trainer:fit:69 - Epoch 3/300 | Train: 0.002387 | Val: 0.002049
+2026-07-04 19:43:30.676 | DEBUG    | src.training.trainer:fit:69 - Epoch 4/300 | Train: 0.001692 | Val: 0.001004
+2026-07-04 19:43:30.682 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 19:43:51.864 | DEBUG    | src.training.trainer:fit:69 - Epoch 5/300 | Train: 0.001456 | Val: 0.002781
+2026-07-04 19:44:17.188 | DEBUG    | src.training.trainer:fit:69 - Epoch 6/300 | Train: 0.001241 | Val: 0.001114
+2026-07-04 19:44:42.224 | DEBUG    | src.training.trainer:fit:69 - Epoch 7/300 | Train: 0.001061 | Val: 0.001159
+2026-07-04 19:45:07.421 | DEBUG    | src.training.trainer:fit:69 - Epoch 8/300 | Train: 0.001068 | Val: 0.001336
+2026-07-04 19:45:32.344 | DEBUG    | src.training.trainer:fit:69 - Epoch 9/300 | Train: 0.000973 | Val: 0.000700
+2026-07-04 19:45:32.355 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 19:45:57.534 | DEBUG    | src.training.trainer:fit:69 - Epoch 10/300 | Train: 0.000909 | Val: 0.000723
+2026-07-04 19:46:22.733 | DEBUG    | src.training.trainer:fit:69 - Epoch 11/300 | Train: 0.000998 | Val: 0.001188
+2026-07-04 19:46:47.865 | DEBUG    | src.training.trainer:fit:69 - Epoch 12/300 | Train: 0.000885 | Val: 0.001011
+2026-07-04 19:47:13.059 | DEBUG    | src.training.trainer:fit:69 - Epoch 13/300 | Train: 0.000818 | Val: 0.000644
+2026-07-04 19:47:13.071 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 19:47:38.109 | DEBUG    | src.training.trainer:fit:69 - Epoch 14/300 | Train: 0.000833 | Val: 0.000704
+2026-07-04 19:48:02.929 | DEBUG    | src.training.trainer:fit:69 - Epoch 15/300 | Train: 0.000700 | Val: 0.000682
+2026-07-04 19:48:28.346 | DEBUG    | src.training.trainer:fit:69 - Epoch 16/300 | Train: 0.000714 | Val: 0.000771
+2026-07-04 19:48:51.116 | DEBUG    | src.training.trainer:fit:69 - Epoch 17/300 | Train: 0.000714 | Val: 0.000883
+2026-07-04 19:49:07.538 | DEBUG    | src.training.trainer:fit:69 - Epoch 18/300 | Train: 0.000650 | Val: 0.000967
+2026-07-04 19:49:32.585 | DEBUG    | src.training.trainer:fit:69 - Epoch 19/300 | Train: 0.000644 | Val: 0.000656
+2026-07-04 19:49:56.791 | DEBUG    | src.training.trainer:fit:69 - Epoch 20/300 | Train: 0.000633 | Val: 0.000638
+2026-07-04 19:49:56.802 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 19:50:17.410 | DEBUG    | src.training.trainer:fit:69 - Epoch 21/300 | Train: 0.000629 | Val: 0.000645
+2026-07-04 19:50:41.900 | DEBUG    | src.training.trainer:fit:69 - Epoch 22/300 | Train: 0.000601 | Val: 0.000644
+2026-07-04 19:51:01.497 | DEBUG    | src.training.trainer:fit:69 - Epoch 23/300 | Train: 0.000610 | Val: 0.000642
+2026-07-04 19:51:25.317 | DEBUG    | src.training.trainer:fit:69 - Epoch 24/300 | Train: 0.000570 | Val: 0.000659
+2026-07-04 19:51:49.801 | DEBUG    | src.training.trainer:fit:69 - Epoch 25/300 | Train: 0.000542 | Val: 0.000649
+2026-07-04 19:52:14.385 | DEBUG    | src.training.trainer:fit:69 - Epoch 26/300 | Train: 0.000552 | Val: 0.000639
+2026-07-04 19:52:38.165 | DEBUG    | src.training.trainer:fit:69 - Epoch 27/300 | Train: 0.000545 | Val: 0.000638
+2026-07-04 19:53:02.974 | DEBUG    | src.training.trainer:fit:69 - Epoch 28/300 | Train: 0.000545 | Val: 0.000871
+2026-07-04 19:53:26.689 | DEBUG    | src.training.trainer:fit:69 - Epoch 29/300 | Train: 0.000515 | Val: 0.000656
+2026-07-04 19:53:51.299 | DEBUG    | src.training.trainer:fit:69 - Epoch 30/300 | Train: 0.000523 | Val: 0.000651
+2026-07-04 19:54:16.218 | DEBUG    | src.training.trainer:fit:69 - Epoch 31/300 | Train: 0.000531 | Val: 0.000653
+2026-07-04 19:54:41.187 | DEBUG    | src.training.trainer:fit:69 - Epoch 32/300 | Train: 0.000502 | Val: 0.000646
+2026-07-04 19:55:05.856 | DEBUG    | src.training.trainer:fit:69 - Epoch 33/300 | Train: 0.000508 | Val: 0.000667
+2026-07-04 19:55:30.223 | DEBUG    | src.training.trainer:fit:69 - Epoch 34/300 | Train: 0.000495 | Val: 0.000650
+2026-07-04 19:55:54.694 | DEBUG    | src.training.trainer:fit:69 - Epoch 35/300 | Train: 0.000482 | Val: 0.000686
+2026-07-04 19:55:54.695 | INFO     | src.training.callbacks:on_epoch_end:26 - Early stopping triggered at epoch 35
+2026-07-04 19:55:55.503 | INFO     | __main__:cli:84 - Training complete. Best validation loss: 0.000638
+2026-07-04 19:55:56.002 | INFO     | __main__:cli:107 - Predictions: min=-0.004824, mean=0.001085, max=0.014782, std=0.004331
+2026-07-04 19:55:56.002 | INFO     | __main__:cli:108 - Actuals:     min=-0.114962, mean=0.004267, max=0.082843, std=0.020194
+2026-07-04 19:55:56.003 | INFO     | __main__:cli:109 - Positive predictions: 57.0%, Negative: 43.0%
+2026-07-04 19:55:56.340 | INFO     | __main__:cli:115 - Running backtest...
+2026-07-04 19:55:56.340 | INFO     | src.backtest.simulator:run_backtest:15 - Correlation (full): 0.1033
+2026-07-04 19:55:56.343 | INFO     | src.backtest.simulator:run_backtest:55 - Backtest results: Sharpe=-1.98, Return=-1.64%
+2026-07-04 19:55:56.686 | INFO     | __main__:cli:121 - Pipeline complete.
+2026-07-04 19:59:54.746 | INFO     | __main__:cli:25 - Using device: cpu
+2026-07-04 19:59:54.747 | INFO     | __main__:cli:28 - Loading data: SPY from 2010-01-01 to 2026-06-01
+2026-07-04 19:59:54.747 | INFO     | src.data.loader:load_data:16 - Loading cached data from data\raw\SPY_2010-01-01_2026-06-01.parquet
+2026-07-04 19:59:54.838 | INFO     | src.data.pipeline:fit_transform:45 - Created 4011 sequences with 26 features each.
+2026-07-04 19:59:54.838 | INFO     | __main__:cli:32 - Created sequences: X=(4011, 60, 26), y=(4011,)
+2026-07-04 19:59:54.838 | INFO     | __main__:cli:41 - Train: (2807, 60, 26), Val: (602, 60, 26), Test: (602, 60, 26)
+2026-07-04 19:59:54.855 | INFO     | __main__:cli:68 - Model parameters: 635,585
+2026-07-04 19:59:55.907 | INFO     | __main__:cli:81 - Starting training...
+2026-07-04 20:00:08.146 | DEBUG    | src.training.trainer:fit:69 - Epoch 1/300 | Train: 0.031974 | Val: 0.001949
+2026-07-04 20:00:08.155 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 20:00:20.274 | DEBUG    | src.training.trainer:fit:69 - Epoch 2/300 | Train: 0.004252 | Val: 0.000916
+2026-07-04 20:00:20.281 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 20:00:32.681 | DEBUG    | src.training.trainer:fit:69 - Epoch 3/300 | Train: 0.002425 | Val: 0.000962
+2026-07-04 20:00:44.767 | DEBUG    | src.training.trainer:fit:69 - Epoch 4/300 | Train: 0.001619 | Val: 0.001441
+2026-07-04 20:00:56.899 | DEBUG    | src.training.trainer:fit:69 - Epoch 5/300 | Train: 0.001498 | Val: 0.000807
+2026-07-04 20:00:56.905 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 20:01:09.435 | DEBUG    | src.training.trainer:fit:69 - Epoch 6/300 | Train: 0.001325 | Val: 0.000888
+2026-07-04 20:01:21.533 | DEBUG    | src.training.trainer:fit:69 - Epoch 7/300 | Train: 0.001091 | Val: 0.000721
+2026-07-04 20:01:21.539 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 20:01:33.620 | DEBUG    | src.training.trainer:fit:69 - Epoch 8/300 | Train: 0.001004 | Val: 0.000687
+2026-07-04 20:01:33.626 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 20:01:45.985 | DEBUG    | src.training.trainer:fit:69 - Epoch 9/300 | Train: 0.000911 | Val: 0.000678
+2026-07-04 20:01:45.990 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 20:01:58.277 | DEBUG    | src.training.trainer:fit:69 - Epoch 10/300 | Train: 0.000888 | Val: 0.000730
+2026-07-04 20:02:11.225 | DEBUG    | src.training.trainer:fit:69 - Epoch 11/300 | Train: 0.000844 | Val: 0.000855
+2026-07-04 20:02:23.569 | DEBUG    | src.training.trainer:fit:69 - Epoch 12/300 | Train: 0.000796 | Val: 0.000670
+2026-07-04 20:02:23.575 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 20:02:35.885 | DEBUG    | src.training.trainer:fit:69 - Epoch 13/300 | Train: 0.000708 | Val: 0.001257
+2026-07-04 20:02:48.269 | DEBUG    | src.training.trainer:fit:69 - Epoch 14/300 | Train: 0.000754 | Val: 0.000681
+2026-07-04 20:03:00.716 | DEBUG    | src.training.trainer:fit:69 - Epoch 15/300 | Train: 0.000718 | Val: 0.000659
+2026-07-04 20:03:00.723 | INFO     | src.training.callbacks:on_epoch_end:41 - Saved checkpoint to results/models/best_model.pth
+2026-07-04 20:03:13.585 | DEBUG    | src.training.trainer:fit:69 - Epoch 16/300 | Train: 0.000669 | Val: 0.000714
+2026-07-04 20:03:25.955 | DEBUG    | src.training.trainer:fit:69 - Epoch 17/300 | Train: 0.000725 | Val: 0.000860
+2026-07-04 20:03:38.102 | DEBUG    | src.training.trainer:fit:69 - Epoch 18/300 | Train: 0.000638 | Val: 0.000798
+2026-07-04 20:03:50.541 | DEBUG    | src.training.trainer:fit:69 - Epoch 19/300 | Train: 0.000607 | Val: 0.000737
+2026-07-04 20:04:02.878 | DEBUG    | src.training.trainer:fit:69 - Epoch 20/300 | Train: 0.000660 | Val: 0.000893
+2026-07-04 20:04:15.249 | DEBUG    | src.training.trainer:fit:69 - Epoch 21/300 | Train: 0.000564 | Val: 0.000837
+2026-07-04 20:04:27.542 | DEBUG    | src.training.trainer:fit:69 - Epoch 22/300 | Train: 0.000558 | Val: 0.000714
+2026-07-04 20:04:39.736 | DEBUG    | src.training.trainer:fit:69 - Epoch 23/300 | Train: 0.000555 | Val: 0.000666
+2026-07-04 20:04:52.399 | DEBUG    | src.training.trainer:fit:69 - Epoch 24/300 | Train: 0.000521 | Val: 0.000690
+2026-07-04 20:05:04.988 | DEBUG    | src.training.trainer:fit:69 - Epoch 25/300 | Train: 0.000520 | Val: 0.000838
+2026-07-04 20:05:17.675 | DEBUG    | src.training.trainer:fit:69 - Epoch 26/300 | Train: 0.000546 | Val: 0.000663
+2026-07-04 20:05:29.812 | DEBUG    | src.training.trainer:fit:69 - Epoch 27/300 | Train: 0.000506 | Val: 0.000678
+2026-07-04 20:05:42.077 | DEBUG    | src.training.trainer:fit:69 - Epoch 28/300 | Train: 0.000497 | Val: 0.000745
+2026-07-04 20:05:54.339 | DEBUG    | src.training.trainer:fit:69 - Epoch 29/300 | Train: 0.000501 | Val: 0.000700
+2026-07-04 20:06:06.556 | DEBUG    | src.training.trainer:fit:69 - Epoch 30/300 | Train: 0.000493 | Val: 0.000729
+2026-07-04 20:06:06.556 | INFO     | src.training.callbacks:on_epoch_end:26 - Early stopping triggered at epoch 30
+2026-07-04 20:06:06.884 | INFO     | __main__:cli:84 - Training complete. Best validation loss: 0.000659
+2026-07-04 20:06:07.185 | INFO     | __main__:cli:107 - Predictions: min=-0.007587, mean=0.000475, max=0.019641, std=0.004944
+2026-07-04 20:06:07.186 | INFO     | __main__:cli:108 - Actuals:     min=-0.114962, mean=0.004267, max=0.082843, std=0.020194
+2026-07-04 20:06:07.186 | INFO     | __main__:cli:109 - Positive predictions: 49.5%, Negative: 50.5%
+2026-07-04 20:06:07.371 | INFO     | __main__:cli:115 - Running backtest...
+2026-07-04 20:06:07.372 | INFO     | src.backtest.simulator:run_backtest:15 - Correlation (full): 0.1415
+2026-07-04 20:06:07.379 | INFO     | src.backtest.simulator:run_backtest:27 - Long threshold: 0.0018, Short threshold: -0.0026
+2026-07-04 20:06:07.380 | INFO     | src.backtest.simulator:run_backtest:70 - Total trades: 73 (out of 120 rebalance periods)
+2026-07-04 20:06:07.380 | INFO     | src.backtest.simulator:run_backtest:71 - Trading frequency: 60.8%
+2026-07-04 20:06:07.381 | INFO     | src.backtest.simulator:run_backtest:74 - Backtest results: Sharpe=-0.06, Return=-0.09%
+2026-07-04 20:06:07.549 | INFO     | __main__:cli:121 - Pipeline complete.
+2026-07-04 20:28:59.158 | INFO     | __main__:main:25 - Loading SPY...
+2026-07-04 20:28:59.159 | INFO     | src.data.loader:load_data:25 - Loading cached data from data\raw\SPY_2010-01-01_2026-06-01.parquet
+2026-07-04 20:28:59.188 | INFO     | __main__:main:29 - Computing features...
+2026-07-04 20:28:59.205 | INFO     | __main__:main:42 - Using 26 features: ['ret_1', 'ret_5', 'ret_10', 'ret_21', 'vol_5', 'vol_10', 'vol_21', 'ma_10', 'price_ma_ratio_10', 'ma_21', 'price_ma_ratio_21', 'ma_50', 'price_ma_ratio_50', 'area_ratio_10', 'area_ratio_21', 'skew_10', 'kurt_10', 'skew_21', 'kurt_21', 'vwap_ratio', 'obv_ratio', 'range', 'range_pct', 'close_position', 'gap', 'gap_pct']
+2026-07-04 20:28:59.207 | INFO     | __main__:main:54 - Train: (2853, 26), Val: (611, 26), Test: (612, 26)
+2026-07-04 20:28:59.207 | INFO     | __main__:main:57 - Training XGBoost classifier...
+2026-07-04 20:29:01.208 | INFO     | __main__:main:81 - Test Accuracy: 0.6275, Precision: 0.6275, Recall: 1.0000
+2026-07-04 20:29:01.208 | INFO     | __main__:main:86 - Running backtest...
+2026-07-04 20:29:01.209 | INFO     | src.backtest.simulator:run_backtest:15 - Correlation (full): 0.1167
+2026-07-04 20:29:01.209 | INFO     | src.backtest.simulator:run_backtest:27 - Long threshold: 0.6196, Short threshold: 0.6146
+2026-07-04 20:29:01.210 | INFO     | src.backtest.simulator:run_backtest:70 - Total trades: 46 (out of 122 rebalance periods)
+2026-07-04 20:29:01.210 | INFO     | src.backtest.simulator:run_backtest:71 - Trading frequency: 37.7%
+2026-07-04 20:29:01.212 | INFO     | src.backtest.simulator:run_backtest:74 - Backtest results: Sharpe=-1.12, Return=-37.40%
+2026-07-04 20:29:01.471 | INFO     | __main__:main:94 - XGBoost pipeline complete.
+2026-07-04 20:30:16.305 | INFO     | __main__:main:25 - Loading SPY...
+2026-07-04 20:30:16.307 | INFO     | src.data.loader:load_data:25 - Loading cached data from data\raw\SPY_2010-01-01_2026-06-01.parquet
+2026-07-04 20:30:16.340 | INFO     | __main__:main:29 - Computing features...
+2026-07-04 20:30:16.360 | INFO     | __main__:main:42 - Using 26 features
+2026-07-04 20:30:16.363 | INFO     | __main__:main:54 - Train: (2853, 26), Val: (611, 26), Test: (612, 26)
+2026-07-04 20:30:16.364 | INFO     | __main__:main:57 - Training XGBoost Regressor...
+2026-07-04 20:31:39.419 | INFO     | __main__:main:25 - Loading SPY...
+2026-07-04 20:31:39.420 | INFO     | src.data.loader:load_data:25 - Loading cached data from data\raw\SPY_2010-01-01_2026-06-01.parquet
+2026-07-04 20:31:39.447 | INFO     | __main__:main:29 - Computing features...
+2026-07-04 20:31:39.464 | INFO     | __main__:main:46 - Using 26 features
+2026-07-04 20:31:39.466 | INFO     | __main__:main:58 - Train: (2849, 26), Val: (611, 26), Test: (611, 26)
+2026-07-04 20:31:39.466 | INFO     | __main__:main:67 - Training XGBoost Regressor...
+2026-07-04 20:31:41.271 | INFO     | __main__:main:88 - Test MSE: 0.000397, MAE: 0.014571
+2026-07-04 20:31:41.272 | INFO     | __main__:main:92 - Test correlation: 0.2253
+2026-07-04 20:31:41.272 | INFO     | __main__:main:95 - Running backtest...
+2026-07-04 20:31:41.272 | INFO     | src.backtest.simulator:run_backtest:15 - Correlation (full): 0.3070
+2026-07-04 20:31:41.272 | INFO     | src.backtest.simulator:run_backtest:27 - Long threshold: 0.0029, Short threshold: 0.0029
+2026-07-04 20:31:41.274 | INFO     | src.backtest.simulator:run_backtest:70 - Total trades: 26 (out of 122 rebalance periods)
+2026-07-04 20:31:41.274 | INFO     | src.backtest.simulator:run_backtest:71 - Trading frequency: 21.3%
+2026-07-04 20:31:41.276 | INFO     | src.backtest.simulator:run_backtest:74 - Backtest results: Sharpe=1.45, Return=1.44%
+2026-07-04 20:31:41.542 | INFO     | __main__:main:103 - XGBoost Regressor pipeline complete.
+2026-07-04 20:33:42.438 | INFO     | __main__:main:25 - Loading SPY...
+2026-07-04 20:33:42.439 | INFO     | src.data.loader:load_data:25 - Loading cached data from data\raw\SPY_2010-01-01_2026-06-01.parquet
+2026-07-04 20:33:42.465 | INFO     | __main__:main:29 - Computing features...
+2026-07-04 20:33:42.481 | INFO     | __main__:main:46 - Using 26 features
+2026-07-04 20:33:42.483 | INFO     | __main__:main:58 - Train: (2849, 26), Val: (611, 26), Test: (611, 26)
+2026-07-04 20:33:42.483 | INFO     | __main__:main:67 - Training XGBoost Regressor...
+2026-07-04 20:33:44.307 | INFO     | __main__:main:88 - Test MSE: 0.000397, MAE: 0.014571
+2026-07-04 20:33:44.307 | INFO     | __main__:main:92 - Test correlation: 0.2253
+2026-07-04 20:33:44.307 | INFO     | __main__:main:95 - Running backtest...
+2026-07-04 20:33:44.307 | INFO     | src.backtest.simulator:run_backtest:15 - Correlation (full): 0.3070
+2026-07-04 20:33:44.308 | INFO     | src.backtest.simulator:run_backtest:27 - Long threshold: 0.0029, Short threshold: 0.0029
+2026-07-04 20:33:44.309 | INFO     | src.backtest.simulator:run_backtest:70 - Total trades: 26 (out of 122 rebalance periods)
+2026-07-04 20:33:44.309 | INFO     | src.backtest.simulator:run_backtest:71 - Trading frequency: 21.3%
+2026-07-04 20:33:44.311 | INFO     | src.backtest.simulator:run_backtest:74 - Backtest results: Sharpe=1.45, Return=1.44%
+2026-07-04 20:33:44.584 | INFO     | __main__:main:103 - XGBoost Regressor pipeline complete.
+2026-07-04 20:36:34.036 | INFO     | __main__:main:25 - Loading SPY...
+2026-07-04 20:36:34.038 | INFO     | src.data.loader:load_data:25 - Loading cached data from data\raw\SPY_2010-01-01_2026-06-01.parquet
+2026-07-04 20:36:34.068 | INFO     | __main__:main:29 - Computing features...
+2026-07-04 20:36:34.085 | INFO     | __main__:main:46 - Using 26 features
+2026-07-04 20:36:34.087 | INFO     | __main__:main:58 - Train: (2849, 26), Val: (611, 26), Test: (611, 26)
+2026-07-04 20:36:34.088 | INFO     | __main__:main:67 - Training XGBoost Regressor...
+2026-07-04 20:36:35.922 | INFO     | __main__:main:88 - Test MSE: 0.000397, MAE: 0.014571
+2026-07-04 20:36:35.922 | INFO     | __main__:main:92 - Test correlation: 0.2253
+2026-07-04 20:36:35.922 | INFO     | __main__:main:95 - Running backtest...
+2026-07-04 20:36:35.923 | INFO     | src.backtest.simulator:run_backtest:15 - Correlation (full): 0.3070
+2026-07-04 20:36:35.923 | INFO     | src.backtest.simulator:run_backtest:25 - Long threshold: 0.0029, Short threshold: 0.0029
+2026-07-04 20:36:35.925 | INFO     | src.backtest.simulator:run_backtest:86 - Total trades: 26 (out of 122 rebalance periods)
+2026-07-04 20:36:35.925 | INFO     | src.backtest.simulator:run_backtest:87 - Trading frequency: 21.3%
+2026-07-04 20:36:35.926 | INFO     | src.backtest.simulator:run_backtest:90 - Backtest results: Sharpe=1.45, Return=1.44%
+2026-07-04 20:36:36.204 | INFO     | __main__:main:103 - XGBoost Regressor pipeline complete.
+2026-07-04 20:39:34.860 | INFO     | __main__:main:25 - Loading SPY...
+2026-07-04 20:39:34.861 | INFO     | src.data.loader:load_data:25 - Loading cached data from data\raw\SPY_2010-01-01_2026-06-01.parquet
+2026-07-04 20:39:34.891 | INFO     | __main__:main:29 - Computing features...
+2026-07-04 20:39:34.908 | INFO     | __main__:main:46 - Using 26 features
+2026-07-04 20:39:34.909 | INFO     | __main__:main:58 - Train: (2849, 26), Val: (611, 26), Test: (611, 26)
+2026-07-04 20:39:34.909 | INFO     | __main__:main:67 - Training XGBoost Regressor...
+2026-07-04 20:39:36.734 | INFO     | __main__:main:88 - Test MSE: 0.000397, MAE: 0.014571
+2026-07-04 20:39:36.735 | INFO     | __main__:main:92 - Test correlation: 0.2253
+2026-07-04 20:39:36.735 | INFO     | __main__:main:95 - Running backtest...
+2026-07-04 20:39:36.735 | INFO     | src.backtest.simulator:run_backtest:15 - Correlation (full): 0.3070
+2026-07-04 20:39:36.736 | INFO     | src.backtest.simulator:run_backtest:25 - Long threshold: 0.0029, Short threshold: 0.0029
+2026-07-04 20:40:47.238 | INFO     | __main__:main:25 - Loading SPY...
+2026-07-04 20:40:47.239 | INFO     | src.data.loader:load_data:25 - Loading cached data from data\raw\SPY_2010-01-01_2026-06-01.parquet
+2026-07-04 20:40:47.267 | INFO     | __main__:main:29 - Computing features...
+2026-07-04 20:40:47.285 | INFO     | __main__:main:46 - Using 26 features
+2026-07-04 20:40:47.287 | INFO     | __main__:main:58 - Train: (2849, 26), Val: (611, 26), Test: (611, 26)
+2026-07-04 20:40:47.287 | INFO     | __main__:main:67 - Training XGBoost Regressor...
+2026-07-04 20:40:49.103 | INFO     | __main__:main:88 - Test MSE: 0.000397, MAE: 0.014571
+2026-07-04 20:40:49.104 | INFO     | __main__:main:92 - Test correlation: 0.2253
+2026-07-04 20:40:49.104 | INFO     | __main__:main:95 - Running backtest...
+2026-07-04 20:40:49.104 | INFO     | src.backtest.simulator:run_backtest:15 - Correlation (full): 0.3070
+2026-07-04 20:40:49.105 | INFO     | src.backtest.simulator:run_backtest:25 - Long threshold: 0.0029, Short threshold: 0.0029
+2026-07-04 20:40:49.106 | INFO     | src.backtest.simulator:run_backtest:86 - Total trades: 26 (out of 122 rebalance periods)
+2026-07-04 20:40:49.106 | INFO     | src.backtest.simulator:run_backtest:87 - Trading frequency: 21.3%
+2026-07-04 20:40:49.108 | INFO     | src.backtest.simulator:run_backtest:90 - Backtest results: Sharpe=1.45, Return=1.44%
+2026-07-04 20:40:49.381 | INFO     | __main__:main:103 - XGBoost Regressor pipeline complete.

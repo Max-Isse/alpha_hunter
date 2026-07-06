@@ -1,8 +1,10 @@
 [project]
 name = "alpha-hunting"
 version = "0.1.0"
-description = "High‑dimensional alpha hunting with Transformer‑GRU"
-authors = [{name = "Your Name", email = "you@example.com"}]
+description = "High-dimensional alpha hunting with Hybrid Transformer-GRU"
+authors = [{name = "Senior Quant", email = "quant@alphafirm.com"}]
+readme = "README.md"
+requires-python = ">=3.12"
 dependencies = [
     "torch>=2.5.0",
     "pandas>=2.2.0",
@@ -16,11 +18,34 @@ dependencies = [
     "pydantic>=2.7.0",
     "loguru>=0.7.0",
     "yfinance>=0.2.0",
+    "click>=8.1.0",
+    "xgboost>=3.3.0",
 ]
-[project.scripts]
-alpha-train = "src.main:train"
-alpha-backtest = "src.main:backtest"
 
-[tool.uv]
-[dependency-groups]
-dev = ["pytest>=8.0", "ruff>=0.4.0", "mypy>=1.10.0"]
+[project.scripts]
+alpha-run = "src.main:cli"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["src"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "UP", "B", "C4", "T20"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
+python_functions = "test_*"
+
+[tool.mypy]
+python_version = "3.12"
+warn_return_any = true
+warn_unused_configs = true
+ignore_missing_imports = true

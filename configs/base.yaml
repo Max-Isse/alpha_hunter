@@ -8,3 +8,14 @@ training:
   scheduler_factor: 0.5
   scheduler_patience: 10
   optimizer: "adamw"   # <-- ADD THIS LINE
+backtest:
+  initial_capital: 100000.0
+  position_size: 0.3           # Maximum allowed position (cap)
+  position_fraction: 0.15      # Fraction of capital to risk per trade (new)
+  commission: 0.001
+  slippage: 0.0005
+data:
+  source: "yfinance"
+  symbol: "SPY"
+  start: "2015-01-01"
+  end: "2026-07-04"

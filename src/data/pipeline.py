@@ -10,7 +10,7 @@ from src.utils.logging import logger
 class FeaturePipeline:
     """
     Leakage‑proof feature engineering pipeline.
-    Uses src.features for modular feature generation.
+    Now filters out NaN targets to ensure clean sequences.
     """
     def __init__(self, lookback: int = 60, horizon: int = 5):
         self.lookback = lookback
@@ -22,7 +22,7 @@ class FeaturePipeline:
         df_fe = compute_technical_features(df)
         target = compute_target(df_fe, self.horizon)
 
-        # Drop NaN and align
+        # Drop rows with NaN in features or target
         df_clean = df_fe.dropna()
         target_clean = target.loc[df_clean.index]
 
@@ -35,11 +35,15 @@ class FeaturePipeline:
 
         X, y = [], []
         for i in range(self.lookback, len(X_scaled)):
-            X.append(X_scaled[i - self.lookback:i])
-            y.append(target_clean.iloc[i])
+            # Skip if target is NaN (should not happen after dropna, but safe)
+            if not np.isnan(target_clean.iloc[i]):
+                X.append(X_scaled[i - self.lookback:i])
+                y.append(target_clean.iloc[i])
 
+        X = np.array(X, dtype=np.float32)
+        y = np.array(y, dtype=np.float32)
         logger.info(f"Created {len(X)} sequences with {len(feature_cols)} features each.")
-        return np.array(X, dtype=np.float32), np.array(y, dtype=np.float32)
+        return X, y
 
     def transform(self, df: pd.DataFrame) -> np.ndarray:
         df_fe = compute_technical_features(df)

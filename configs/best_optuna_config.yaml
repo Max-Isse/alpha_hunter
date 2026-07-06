@@ -1,0 +1,10 @@
+model:
+  d_model: 128
+  nhead: 8
+  num_layers: 3        # Force deeper
+  dropout: 0.23
+
+training:
+  lr: 0.000391
+  batch_size: 32
+  epochs: 300          # Train longer

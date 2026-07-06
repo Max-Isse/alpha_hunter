@@ -37,6 +37,7 @@ class TrainingConfig(BaseModel):
 class BacktestConfig(BaseModel):
     initial_capital: float = 100000.0
     position_size: float = 0.1
+    position_fraction: float = 0.15   # <-- new
     commission: float = 0.001
     slippage: float = 0.0005
 
